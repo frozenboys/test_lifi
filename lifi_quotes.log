@@ -1,0 +1,57 @@
+[2025-06-10T04:27:08.215Z] Testing Li.Fi API quote functionality for Solana...
+[2025-06-10T04:27:08.216Z] Requesting quote with params:
+[2025-06-10T04:27:08.217Z] {
+  "fromChain": "sol",
+  "toChain": "sol",
+  "fromToken": "So11111111111111111111111111111111111111112",
+  "toToken": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+  "fromAmount": "10000000",
+  "fromAddress": "CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj"
+}
+[2025-06-10T04:27:08.219Z] 
+Checking Li.Fi connection...
+[2025-06-10T04:27:08.518Z] 
+✅ Connection found:
+[2025-06-10T04:27:08.519Z] From Chain ID: 1151111081099710
+[2025-06-10T04:27:08.522Z] To Chain ID: 1151111081099710
+[2025-06-10T04:27:08.523Z] 
+From Token Details:
+[2025-06-10T04:27:08.523Z] Symbol: wSOL
+[2025-06-10T04:27:08.524Z] Name: wSOL
+[2025-06-10T04:27:08.525Z] Decimals: 9
+[2025-06-10T04:27:08.525Z] Price USD: $159.29
+[2025-06-10T04:27:08.526Z] 
+To Token Details:
+[2025-06-10T04:27:08.526Z] Symbol: USDT
+[2025-06-10T04:27:08.527Z] Name: USDT
+[2025-06-10T04:27:08.527Z] Decimals: 6
+[2025-06-10T04:27:08.528Z] Price USD: $1.00
+[2025-06-10T04:27:08.528Z] 
+Requesting quote from Li.Fi...
+[2025-06-10T04:27:09.329Z] 
+=== Li.Fi Quote Details ===
+[2025-06-10T04:27:09.330Z] 
+1. Pre-Execution Quote:
+[2025-06-10T04:27:09.331Z] From: 0.010000000 wSOL
+[2025-06-10T04:27:09.331Z] To: 1.589426 USDT
+[2025-06-10T04:27:09.332Z] Rate: 1 wSOL = 158.942600 USDT
+[2025-06-10T04:27:09.333Z] 
+USD Values:
+[2025-06-10T04:27:09.333Z] From: $1.59
+[2025-06-10T04:27:09.334Z] To: $1.59
+[2025-06-10T04:27:09.335Z] 
+2. Estimated Fees:
+[2025-06-10T04:27:09.335Z] Gas: 0.000038981 SOL ($0.01)
+[2025-06-10T04:27:09.336Z] 
+Swap Details:
+[2025-06-10T04:27:09.337Z] DEX: Jupiter
+[2025-06-10T04:27:09.337Z] Slippage: 0.50%
+[2025-06-10T04:27:09.338Z] Minimum Received: 1.581479 USDT
+[2025-06-10T04:27:09.338Z] 
+Transaction Request Details:
+[2025-06-10T04:27:09.339Z] Has serializedTransaction: false
+[2025-06-10T04:27:09.340Z] Has instructions: false
+[2025-06-10T04:27:09.340Z] Number of instructions: 0
+[2025-06-10T04:27:09.340Z] 
+==================================================
+

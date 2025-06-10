@@ -1,0 +1,1641 @@
+Li.Fi Swap Analysis
+==================================================
+[2025-06-10T04:33:37.250Z] Starting Li.Fi swap process...
+[2025-06-10T04:33:37.251Z] 
+=== Starting Swap Process ===
+[2025-06-10T04:33:37.252Z] Swap Parameters:
+[2025-06-10T04:33:37.253Z] {
+  "fromChain": "sol",
+  "toChain": "sol",
+  "fromToken": "So11111111111111111111111111111111111111112",
+  "toToken": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+  "fromAmount": "10000000",
+  "fromAddress": "CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj"
+}
+[2025-06-10T04:33:37.254Z] 
+=== Checking Li.Fi Connection ===
+[2025-06-10T04:33:37.795Z] 
+✅ Connection found:
+[2025-06-10T04:33:37.796Z] From Chain ID: 1151111081099710
+[2025-06-10T04:33:37.797Z] To Chain ID: 1151111081099710
+[2025-06-10T04:33:37.798Z] 
+From Token Details:
+[2025-06-10T04:33:37.799Z] Symbol: wSOL
+[2025-06-10T04:33:37.799Z] Name: wSOL
+[2025-06-10T04:33:37.800Z] Decimals: 9
+[2025-06-10T04:33:37.801Z] Price USD: $159.29
+[2025-06-10T04:33:37.801Z] 
+To Token Details:
+[2025-06-10T04:33:37.802Z] Symbol: USDT
+[2025-06-10T04:33:37.803Z] Name: USDT
+[2025-06-10T04:33:37.803Z] Decimals: 6
+[2025-06-10T04:33:37.804Z] Price USD: $1.00
+[2025-06-10T04:33:37.805Z] 
+=== Requesting Li.Fi Quote ===
+[2025-06-10T04:33:38.830Z] 
+=== Li.Fi Quote Details ===
+[2025-06-10T04:33:38.830Z] 
+1. Pre-Execution Quote:
+[2025-06-10T04:33:38.831Z] From: 0.010000000 wSOL
+[2025-06-10T04:33:38.832Z] To: 1.590174 USDT
+[2025-06-10T04:33:38.832Z] Rate: 1 wSOL = 159.017400 USDT
+[2025-06-10T04:33:38.833Z] 
+USD Values:
+[2025-06-10T04:33:38.834Z] From: $1.59
+[2025-06-10T04:33:38.834Z] To: $1.59
+[2025-06-10T04:33:38.835Z] 
+2. Estimated Fees:
+[2025-06-10T04:33:38.836Z] Gas: 0.000030067 SOL ($0.00)
+[2025-06-10T04:33:38.836Z] 
+Swap Details:
+[2025-06-10T04:33:38.837Z] DEX: Jupiter
+[2025-06-10T04:33:38.838Z] Slippage: 0.50%
+[2025-06-10T04:33:38.838Z] Minimum Received: 1.582223 USDT
+[2025-06-10T04:33:38.839Z] 
+Transaction Request Details:
+[2025-06-10T04:33:38.840Z] Has serializedTransaction: false
+[2025-06-10T04:33:38.840Z] Has instructions: false
+[2025-06-10T04:33:38.841Z] Number of instructions: 0
+[2025-06-10T04:33:38.841Z] 
+==================================================
+
+[2025-06-10T04:33:46.252Z] 
+=== Executing Swap Transaction ===
+[2025-06-10T04:33:46.253Z] 
+Getting recent blockhash...
+[2025-06-10T04:33:47.462Z] 
+Sending transaction...
+[2025-06-10T04:33:47.838Z] Transaction sent: 3qowgQYimjZcraMGonRDtxbH1woDJwP725C6qdZMYRXsGUo6Wzy9KYWqmfbW5cdjAoeLReAJQc5P71eEwbFTixEK
+[2025-06-10T04:33:47.838Z] Waiting for transaction confirmation...
+[2025-06-10T04:33:49.569Z] 
+✅ Transaction completed successfully!
+[2025-06-10T04:33:49.570Z] Transaction signature: 3qowgQYimjZcraMGonRDtxbH1woDJwP725C6qdZMYRXsGUo6Wzy9KYWqmfbW5cdjAoeLReAJQc5P71eEwbFTixEK
+[2025-06-10T04:33:49.571Z] Solscan link: https://solscan.io/tx/3qowgQYimjZcraMGonRDtxbH1woDJwP725C6qdZMYRXsGUo6Wzy9KYWqmfbW5cdjAoeLReAJQc5P71eEwbFTixEK
+[2025-06-10T04:33:49.572Z] 
+=== Analyzing Swap Transaction: 3qowgQYimjZcraMGonRDtxbH1woDJwP725C6qdZMYRXsGUo6Wzy9KYWqmfbW5cdjAoeLReAJQc5P71eEwbFTixEK ===
+[2025-06-10T04:33:50.445Z] 
+Transaction Details:
+[2025-06-10T04:33:50.446Z] Time: 2025-06-10T04:33:47.000Z
+[2025-06-10T04:33:50.447Z] Status: Success
+[2025-06-10T04:33:50.447Z] Network Fee: 0.000030068 SOL
+[2025-06-10T04:33:50.448Z] 
+Swap Details:
+[2025-06-10T04:33:50.449Z] Swapper: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj
+[2025-06-10T04:33:50.449Z] Slippage: 0.5%
+[2025-06-10T04:33:50.450Z] Quoted Output Amount: 1590173
+[2025-06-10T04:33:50.450Z] Slippage Paid: 0.0001020000000000465
+[2025-06-10T04:33:50.451Z] 
+Token Transfers:
+[2025-06-10T04:33:50.452Z] Input: 0.01 So11111111111111111111111111111111111111112
+[2025-06-10T04:33:50.453Z] Output: 1.590071 Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB
+[2025-06-10T04:33:50.453Z] Rate: 1 So11111111111111111111111111111111111111112 = 159.007100 Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB
+[2025-06-10T04:33:50.454Z] 
+Transaction Links:
+[2025-06-10T04:33:50.454Z] Solscan: https://solscan.io/tx/3qowgQYimjZcraMGonRDtxbH1woDJwP725C6qdZMYRXsGUo6Wzy9KYWqmfbW5cdjAoeLReAJQc5P71eEwbFTixEK
+[2025-06-10T04:33:50.455Z] Explorer: https://explorer.solana.com/tx/3qowgQYimjZcraMGonRDtxbH1woDJwP725C6qdZMYRXsGUo6Wzy9KYWqmfbW5cdjAoeLReAJQc5P71eEwbFTixEK
+[2025-06-10T05:40:39.562Z] Starting Li.Fi swap process...
+[2025-06-10T05:42:37.559Z] 
+=== Starting Cross-Chain Swap Process ===
+[2025-06-10T05:42:37.560Z] Swap Parameters:
+[2025-06-10T05:42:37.615Z] {
+  "fromChain": "sol",
+  "toChain": "sol",
+  "fromToken": "So11111111111111111111111111111111111111112",
+  "toToken": "5C8LMqZ9dbQ3RWoe5pFk5fJPhgiBQtBYdMnzekfJpump",
+  "fromAmount": "10000000",
+  "fromAddress": "CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj",
+  "toAddress": "CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj"
+}
+[2025-06-10T05:42:37.618Z] 
+=== Checking Li.Fi Connection ===
+[2025-06-10T05:42:39.322Z] 
+❌ Error checking connection: HTTP error! status: 404
+Details: {"message":"Could not find token 1151111081099710-5C8LMqZ9dbQ3RWoe5pFk5fJPhgiBQtBYdMnzekfJpump","code":1003}
+[2025-06-10T05:42:39.329Z] 
+⚠️ No connection found between tokens
+[2025-06-10T05:42:39.330Z] Please verify token addresses and try again
+[2025-06-10T05:44:36.662Z] Starting Li.Fi swap process...
+[2025-06-10T05:44:36.664Z] 
+====================================================================================================
+🔄 NEW SWAP REQUEST 🔄
+====================================================================================================
+
+[2025-06-10T05:45:20.853Z] 
+=== Starting Cross-Chain Swap Process ===
+[2025-06-10T05:45:20.854Z] Swap Parameters:
+[2025-06-10T05:45:20.855Z] {
+  "fromChain": "sol",
+  "toChain": "sol",
+  "fromToken": "So11111111111111111111111111111111111111112",
+  "toToken": "4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump",
+  "fromAmount": "0.01",
+  "fromAddress": "CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj",
+  "toAddress": "CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj"
+}
+[2025-06-10T05:45:20.858Z] 
+=== Checking Li.Fi Connection ===
+[2025-06-10T05:45:21.668Z] 
+✅ Connection found:
+[2025-06-10T05:45:21.675Z] From Chain ID: 1151111081099710
+[2025-06-10T05:45:21.676Z] To Chain ID: 1151111081099710
+[2025-06-10T05:45:21.676Z] 
+From Token Details:
+[2025-06-10T05:45:21.677Z] Symbol: wSOL
+[2025-06-10T05:45:21.678Z] Name: wSOL
+[2025-06-10T05:45:21.678Z] Decimals: 9
+[2025-06-10T05:45:21.679Z] Price USD: $159.25
+[2025-06-10T05:45:21.680Z] 
+To Token Details:
+[2025-06-10T05:45:21.681Z] Symbol: Trenches
+[2025-06-10T05:45:21.682Z] Name: TheTrenches
+[2025-06-10T05:45:21.683Z] Decimals: 6
+[2025-06-10T05:45:21.685Z] Price USD: $0.00
+[2025-06-10T05:45:21.689Z] 
+=== Requesting Li.Fi Quote ===
+[2025-06-10T05:45:21.984Z] 
+⚠️ Invalid address format for target chain
+[2025-06-10T05:45:21.985Z] Please provide a valid address for the target chain
+[2025-06-10T05:45:21.986Z] 
+❌ Error fetching quote: HTTP error! status: 400
+Details: {"message":"/fromAmount must pass \"isBigNumberish\" keyword validation","code":1011}
+[2025-06-10T05:45:21.986Z] 
+Failed Quote Parameters:
+[2025-06-10T05:45:21.987Z] From Chain: sol
+[2025-06-10T05:45:21.989Z] To Chain: sol
+[2025-06-10T05:45:21.989Z] From Token: So11111111111111111111111111111111111111112
+[2025-06-10T05:45:21.990Z] To Token: 4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump
+[2025-06-10T05:45:21.990Z] Amount: 0.01
+[2025-06-10T05:45:21.991Z] From Address: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj
+[2025-06-10T05:45:21.991Z] 
+❌ Error in run: HTTP error! status: 400
+Details: {"message":"/fromAmount must pass \"isBigNumberish\" keyword validation","code":1011}
+[2025-06-10T05:45:21.997Z] 
+Stack trace:
+[2025-06-10T05:45:21.998Z] Error: HTTP error! status: 400
+Details: {"message":"/fromAmount must pass \"isBigNumberish\" keyword validation","code":1011}
+    at getQuote (file:///C:/Users/User/Desktop/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/EscapeVelocity/print.swap/li.fi%20test%202/test-swap.js:205:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async run (file:///C:/Users/User/Desktop/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/EscapeVelocity/print.swap/li.fi%20test%202/test-swap.js:496:23)
+[2025-06-10T05:45:22.001Z] 
+====================================================================================================
+❌ SWAP FAILED ❌
+====================================================================================================
+
+[2025-06-10T05:47:14.703Z] Starting Li.Fi swap process...
+[2025-06-10T05:47:14.704Z] 
+====================================================================================================
+🔄 NEW SWAP REQUEST 🔄
+====================================================================================================
+
+[2025-06-10T05:48:09.334Z] 
+Amount Details:
+[2025-06-10T05:48:09.335Z] Input: 0.01
+[2025-06-10T05:48:09.336Z] Formatted: 0010000000
+[2025-06-10T05:48:09.337Z] 
+=== Starting Cross-Chain Swap Process ===
+[2025-06-10T05:48:09.338Z] Swap Parameters:
+[2025-06-10T05:48:09.340Z] {
+  "fromChain": "sol",
+  "toChain": "sol",
+  "fromToken": "So11111111111111111111111111111111111111112",
+  "toToken": "4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump",
+  "fromAmount": "0010000000",
+  "fromAddress": "CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj",
+  "toAddress": "CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj"
+}
+[2025-06-10T05:48:09.342Z] 
+=== Checking Li.Fi Connection ===
+[2025-06-10T05:48:09.741Z] 
+✅ Connection found:
+[2025-06-10T05:48:09.742Z] From Chain ID: 1151111081099710
+[2025-06-10T05:48:09.743Z] To Chain ID: 1151111081099710
+[2025-06-10T05:48:09.744Z] 
+From Token Details:
+[2025-06-10T05:48:09.744Z] Symbol: wSOL
+[2025-06-10T05:48:09.745Z] Name: wSOL
+[2025-06-10T05:48:09.746Z] Decimals: 9
+[2025-06-10T05:48:09.746Z] Price USD: $159.25
+[2025-06-10T05:48:09.747Z] 
+To Token Details:
+[2025-06-10T05:48:09.748Z] Symbol: Trenches
+[2025-06-10T05:48:09.748Z] Name: TheTrenches
+[2025-06-10T05:48:09.749Z] Decimals: 6
+[2025-06-10T05:48:09.750Z] Price USD: $0.00
+[2025-06-10T05:48:09.751Z] 
+=== Requesting Li.Fi Quote ===
+[2025-06-10T05:48:10.027Z] 
+⚠️ Invalid address format for target chain
+[2025-06-10T05:48:10.028Z] Please provide a valid address for the target chain
+[2025-06-10T05:48:10.029Z] 
+❌ Error fetching quote: HTTP error! status: 400
+Details: {"message":"/fromAmount must pass \"isBigNumberish\" keyword validation","code":1011}
+[2025-06-10T05:48:10.030Z] 
+Failed Quote Parameters:
+[2025-06-10T05:48:10.030Z] From Chain: sol
+[2025-06-10T05:48:10.031Z] To Chain: sol
+[2025-06-10T05:48:10.031Z] From Token: So11111111111111111111111111111111111111112
+[2025-06-10T05:48:10.032Z] To Token: 4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump
+[2025-06-10T05:48:10.032Z] Amount: 0010000000
+[2025-06-10T05:48:10.033Z] From Address: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj
+[2025-06-10T05:48:10.034Z] 
+❌ Error in run: HTTP error! status: 400
+Details: {"message":"/fromAmount must pass \"isBigNumberish\" keyword validation","code":1011}
+[2025-06-10T05:48:10.035Z] 
+Stack trace:
+[2025-06-10T05:48:10.036Z] Error: HTTP error! status: 400
+Details: {"message":"/fromAmount must pass \"isBigNumberish\" keyword validation","code":1011}
+    at getQuote (file:///C:/Users/User/Desktop/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/EscapeVelocity/print.swap/li.fi%20test%202/test-swap.js:233:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async run (file:///C:/Users/User/Desktop/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/EscapeVelocity/print.swap/li.fi%20test%202/test-swap.js:541:23)
+[2025-06-10T05:48:10.037Z] 
+====================================================================================================
+❌ SWAP FAILED ❌
+====================================================================================================
+
+[2025-06-10T05:48:22.905Z] Starting Li.Fi swap process...
+[2025-06-10T05:48:22.907Z] 
+====================================================================================================
+🔄 NEW SWAP REQUEST 🔄
+====================================================================================================
+
+[2025-06-10T05:49:11.526Z] 
+Amount Details:
+[2025-06-10T05:49:11.527Z] Input: 0.01
+[2025-06-10T05:49:11.528Z] Formatted: 0010000000
+[2025-06-10T05:49:11.529Z] 
+=== Starting Cross-Chain Swap Process ===
+[2025-06-10T05:49:11.530Z] Swap Parameters:
+[2025-06-10T05:49:11.532Z] {
+  "fromChain": "sol",
+  "toChain": "sol",
+  "fromToken": "So11111111111111111111111111111111111111112",
+  "toToken": "4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump",
+  "fromAmount": "0010000000",
+  "fromAddress": "CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj",
+  "toAddress": "CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj"
+}
+[2025-06-10T05:49:11.534Z] 
+=== Checking Li.Fi Connection ===
+[2025-06-10T05:49:11.851Z] 
+✅ Connection found:
+[2025-06-10T05:49:11.852Z] From Chain ID: 1151111081099710
+[2025-06-10T05:49:11.853Z] To Chain ID: 1151111081099710
+[2025-06-10T05:49:11.854Z] 
+From Token Details:
+[2025-06-10T05:49:11.854Z] Symbol: wSOL
+[2025-06-10T05:49:11.855Z] Name: wSOL
+[2025-06-10T05:49:11.857Z] Decimals: 9
+[2025-06-10T05:49:11.860Z] Price USD: $159.25
+[2025-06-10T05:49:11.860Z] 
+To Token Details:
+[2025-06-10T05:49:11.862Z] Symbol: Trenches
+[2025-06-10T05:49:11.864Z] Name: TheTrenches
+[2025-06-10T05:49:11.864Z] Decimals: 6
+[2025-06-10T05:49:11.870Z] Price USD: $0.00
+[2025-06-10T05:49:11.871Z] 
+=== Requesting Li.Fi Quote ===
+[2025-06-10T05:49:12.167Z] 
+⚠️ Invalid address format for target chain
+[2025-06-10T05:49:12.168Z] Please provide a valid address for the target chain
+[2025-06-10T05:49:12.169Z] 
+❌ Error fetching quote: HTTP error! status: 400
+Details: {"message":"/fromAmount must pass \"isBigNumberish\" keyword validation","code":1011}
+[2025-06-10T05:49:12.170Z] 
+Failed Quote Parameters:
+[2025-06-10T05:49:12.171Z] From Chain: sol
+[2025-06-10T05:49:12.171Z] To Chain: sol
+[2025-06-10T05:49:12.172Z] From Token: So11111111111111111111111111111111111111112
+[2025-06-10T05:49:12.173Z] To Token: 4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump
+[2025-06-10T05:49:12.174Z] Amount: 0010000000
+[2025-06-10T05:49:12.175Z] From Address: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj
+[2025-06-10T05:49:12.176Z] 
+❌ Error in run: HTTP error! status: 400
+Details: {"message":"/fromAmount must pass \"isBigNumberish\" keyword validation","code":1011}
+[2025-06-10T05:49:12.177Z] 
+Stack trace:
+[2025-06-10T05:49:12.178Z] Error: HTTP error! status: 400
+Details: {"message":"/fromAmount must pass \"isBigNumberish\" keyword validation","code":1011}
+    at getQuote (file:///C:/Users/User/Desktop/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/EscapeVelocity/print.swap/li.fi%20test%202/test-swap.js:233:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async run (file:///C:/Users/User/Desktop/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/EscapeVelocity/print.swap/li.fi%20test%202/test-swap.js:541:23)
+[2025-06-10T05:49:12.180Z] 
+====================================================================================================
+❌ SWAP FAILED ❌
+====================================================================================================
+
+[2025-06-10T05:50:19.594Z] Starting Li.Fi swap process...
+[2025-06-10T05:50:19.595Z] 
+====================================================================================================
+🔄 NEW SWAP REQUEST 🔄
+====================================================================================================
+
+[2025-06-10T05:50:52.926Z] 
+Amount Details:
+[2025-06-10T05:50:52.927Z] Input: 0.01
+[2025-06-10T05:50:52.927Z] Formatted: 010000000
+[2025-06-10T05:50:52.928Z] 
+=== Starting Cross-Chain Swap Process ===
+[2025-06-10T05:50:52.929Z] Swap Parameters:
+[2025-06-10T05:50:52.930Z] {
+  "fromChain": "sol",
+  "toChain": "sol",
+  "fromToken": "So11111111111111111111111111111111111111112",
+  "toToken": "4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump",
+  "fromAmount": "010000000",
+  "fromAddress": "CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj",
+  "toAddress": "CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj"
+}
+[2025-06-10T05:50:52.932Z] 
+=== Checking Li.Fi Connection ===
+[2025-06-10T05:50:53.336Z] 
+✅ Connection found:
+[2025-06-10T05:50:53.337Z] From Chain ID: 1151111081099710
+[2025-06-10T05:50:53.337Z] To Chain ID: 1151111081099710
+[2025-06-10T05:50:53.338Z] 
+From Token Details:
+[2025-06-10T05:50:53.339Z] Symbol: wSOL
+[2025-06-10T05:50:53.340Z] Name: wSOL
+[2025-06-10T05:50:53.341Z] Decimals: 9
+[2025-06-10T05:50:53.342Z] Price USD: $159.25
+[2025-06-10T05:50:53.343Z] 
+To Token Details:
+[2025-06-10T05:50:53.343Z] Symbol: Trenches
+[2025-06-10T05:50:53.344Z] Name: TheTrenches
+[2025-06-10T05:50:53.344Z] Decimals: 6
+[2025-06-10T05:50:53.345Z] Price USD: $0.00
+[2025-06-10T05:50:53.346Z] 
+=== Requesting Li.Fi Quote ===
+[2025-06-10T05:50:53.645Z] 
+⚠️ Invalid address format for target chain
+[2025-06-10T05:50:53.646Z] Please provide a valid address for the target chain
+[2025-06-10T05:50:53.647Z] 
+❌ Error fetching quote: HTTP error! status: 400
+Details: {"message":"/fromAmount must pass \"isBigNumberish\" keyword validation","code":1011}
+[2025-06-10T05:50:53.648Z] 
+Failed Quote Parameters:
+[2025-06-10T05:50:53.648Z] From Chain: sol
+[2025-06-10T05:50:53.649Z] To Chain: sol
+[2025-06-10T05:50:53.649Z] From Token: So11111111111111111111111111111111111111112
+[2025-06-10T05:50:53.650Z] To Token: 4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump
+[2025-06-10T05:50:53.651Z] Amount: 010000000
+[2025-06-10T05:50:53.651Z] From Address: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj
+[2025-06-10T05:50:53.652Z] 
+❌ Error in run: HTTP error! status: 400
+Details: {"message":"/fromAmount must pass \"isBigNumberish\" keyword validation","code":1011}
+[2025-06-10T05:50:53.653Z] 
+Stack trace:
+[2025-06-10T05:50:53.654Z] Error: HTTP error! status: 400
+Details: {"message":"/fromAmount must pass \"isBigNumberish\" keyword validation","code":1011}
+    at getQuote (file:///C:/Users/User/Desktop/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/EscapeVelocity/print.swap/li.fi%20test%202/test-swap.js:239:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async run (file:///C:/Users/User/Desktop/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/EscapeVelocity/print.swap/li.fi%20test%202/test-swap.js:553:23)
+[2025-06-10T05:50:53.655Z] 
+====================================================================================================
+❌ SWAP FAILED ❌
+====================================================================================================
+
+[2025-06-10T05:52:10.503Z] Starting Li.Fi swap process...
+[2025-06-10T05:52:10.505Z] 
+====================================================================================================
+🔄 NEW SWAP REQUEST 🔄
+====================================================================================================
+
+[2025-06-10T05:52:18.743Z] 
+Amount Format Guide:
+[2025-06-10T05:52:18.744Z] For SOL:
+[2025-06-10T05:52:18.745Z] 1 SOL = 1000000000
+[2025-06-10T05:52:18.745Z] 0.1 SOL = 100000000
+[2025-06-10T05:52:18.746Z] 0.01 SOL = 10000000
+[2025-06-10T05:52:18.747Z] 0.001 SOL = 1000000
+[2025-06-10T05:52:59.023Z] 
+Amount Details:
+[2025-06-10T05:52:59.024Z] Input: 10000000
+[2025-06-10T05:52:59.025Z] Formatted: 10000000
+[2025-06-10T05:52:59.026Z] 
+=== Starting Cross-Chain Swap Process ===
+[2025-06-10T05:52:59.027Z] Swap Parameters:
+[2025-06-10T05:52:59.028Z] {
+  "fromChain": "sol",
+  "toChain": "sol",
+  "fromToken": "So11111111111111111111111111111111111111112",
+  "toToken": "4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump",
+  "fromAmount": "10000000",
+  "fromAddress": "CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj",
+  "toAddress": "CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj"
+}
+[2025-06-10T05:52:59.030Z] 
+=== Checking Li.Fi Connection ===
+[2025-06-10T05:52:59.384Z] 
+✅ Connection found:
+[2025-06-10T05:52:59.385Z] From Chain ID: 1151111081099710
+[2025-06-10T05:52:59.385Z] To Chain ID: 1151111081099710
+[2025-06-10T05:52:59.386Z] 
+From Token Details:
+[2025-06-10T05:52:59.387Z] Symbol: wSOL
+[2025-06-10T05:52:59.387Z] Name: wSOL
+[2025-06-10T05:52:59.388Z] Decimals: 9
+[2025-06-10T05:52:59.388Z] Price USD: $159.25
+[2025-06-10T05:52:59.389Z] 
+To Token Details:
+[2025-06-10T05:52:59.391Z] Symbol: Trenches
+[2025-06-10T05:52:59.392Z] Name: TheTrenches
+[2025-06-10T05:52:59.393Z] Decimals: 6
+[2025-06-10T05:52:59.393Z] Price USD: $0.00
+[2025-06-10T05:52:59.394Z] 
+=== Requesting Li.Fi Quote ===
+[2025-06-10T05:53:00.429Z] 
+=== Li.Fi Quote Details ===
+[2025-06-10T05:53:00.430Z] 
+1. Pre-Execution Quote:
+[2025-06-10T05:53:00.431Z] From: 0.010000000 wSOL
+[2025-06-10T05:53:00.431Z] To: 1115.509749 Trenches
+[2025-06-10T05:53:00.432Z] Rate: 1 wSOL = 111550.974900 Trenches
+[2025-06-10T05:53:00.433Z] 
+USD Values:
+[2025-06-10T05:53:00.433Z] From: $1.58
+[2025-06-10T05:53:00.434Z] To: $1.51
+[2025-06-10T05:53:00.434Z] 
+2. Estimated Fees:
+[2025-06-10T05:53:00.435Z] Gas: 0.000024192 SOL ($0.00)
+[2025-06-10T05:53:00.436Z] Fee: 0.002039280 SOL ($0.32)
+[2025-06-10T05:53:00.437Z] 
+Swap Details:
+[2025-06-10T05:53:00.437Z] DEX: Jupiter
+[2025-06-10T05:53:00.438Z] Slippage: 0.50%
+[2025-06-10T05:53:00.439Z] Minimum Received: 1109.932200 Trenches
+[2025-06-10T05:53:00.439Z] 
+Transaction Request Details:
+[2025-06-10T05:53:00.441Z] Has serializedTransaction: false
+[2025-06-10T05:53:00.442Z] Has instructions: false
+[2025-06-10T05:53:00.443Z] Number of instructions: 0
+[2025-06-10T05:53:00.443Z] 
+==================================================
+[2025-06-10T05:53:11.999Z] 
+=== Executing Swap Transaction ===
+[2025-06-10T05:53:11.999Z] 
+Getting recent blockhash...
+[2025-06-10T05:53:13.286Z] 
+Sending transaction...
+[2025-06-10T05:53:13.665Z] Transaction sent: 4JjGpYMNe8bggctFbR2WfXzkpA8gqUfC1vaVqPh9QBxLovMZiaDFDh9Kq6K7Ko2bKz7qmcGtdBbYQSiYDnswVbqS
+[2025-06-10T05:53:13.665Z] Waiting for transaction confirmation...
+[2025-06-10T05:53:15.453Z] 
+✅ Transaction completed successfully!
+[2025-06-10T05:53:15.453Z] Transaction signature: 4JjGpYMNe8bggctFbR2WfXzkpA8gqUfC1vaVqPh9QBxLovMZiaDFDh9Kq6K7Ko2bKz7qmcGtdBbYQSiYDnswVbqS
+[2025-06-10T05:53:15.454Z] Solscan link: https://solscan.io/tx/4JjGpYMNe8bggctFbR2WfXzkpA8gqUfC1vaVqPh9QBxLovMZiaDFDh9Kq6K7Ko2bKz7qmcGtdBbYQSiYDnswVbqS
+[2025-06-10T05:53:15.455Z] 
+=== Analyzing Swap Transaction: 4JjGpYMNe8bggctFbR2WfXzkpA8gqUfC1vaVqPh9QBxLovMZiaDFDh9Kq6K7Ko2bKz7qmcGtdBbYQSiYDnswVbqS ===
+[2025-06-10T05:53:15.970Z] 
+Transaction Details:
+[2025-06-10T05:53:15.972Z] Time: 2025-06-10T05:53:13.000Z
+[2025-06-10T05:53:15.972Z] Status: Success
+[2025-06-10T05:53:15.974Z] Network Fee: 0.000024193 SOL
+[2025-06-10T05:53:15.975Z] 
+Swap Details:
+[2025-06-10T05:53:15.976Z] Swapper: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj
+[2025-06-10T05:53:15.976Z] Slippage: 0.5%
+[2025-06-10T05:53:15.977Z] Quoted Output Amount: 1115509749
+[2025-06-10T05:53:15.978Z] Slippage Paid: 0
+[2025-06-10T05:53:15.979Z] 
+Token Transfers:
+[2025-06-10T05:53:15.979Z] Input: 0.00998994 So11111111111111111111111111111111111111112
+[2025-06-10T05:53:15.980Z] Output: 1115.509749 4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump
+[2025-06-10T05:53:15.981Z] Rate: 1 So11111111111111111111111111111111111111112 = 111663.308188 4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump
+[2025-06-10T05:53:15.981Z] 
+=== Quote vs Actual Comparison ===
+[2025-06-10T05:53:15.982Z] 
+Input Amount:
+[2025-06-10T05:53:15.983Z] Quote: 0.010000000 wSOL
+[2025-06-10T05:53:15.983Z] Actual: 0.000000000 wSOL
+[2025-06-10T05:53:15.984Z] 
+Output Amount:
+[2025-06-10T05:53:15.986Z] Quote: 1115.509749 Trenches
+[2025-06-10T05:53:15.987Z] Actual: 0.001116 Trenches
+[2025-06-10T05:53:15.992Z] 
+Rate Comparison:
+[2025-06-10T05:53:15.993Z] Quote Rate: 1 wSOL = 111.550975 Trenches
+[2025-06-10T05:53:15.994Z] Actual Rate: 1 wSOL = 111663.308188 Trenches
+[2025-06-10T05:53:15.994Z] Difference: 100000.70%
+[2025-06-10T05:53:15.995Z] 
+Transaction Links:
+[2025-06-10T05:53:15.996Z] Solscan: https://solscan.io/tx/4JjGpYMNe8bggctFbR2WfXzkpA8gqUfC1vaVqPh9QBxLovMZiaDFDh9Kq6K7Ko2bKz7qmcGtdBbYQSiYDnswVbqS
+[2025-06-10T05:53:15.997Z] Explorer: https://explorer.solana.com/tx/4JjGpYMNe8bggctFbR2WfXzkpA8gqUfC1vaVqPh9QBxLovMZiaDFDh9Kq6K7Ko2bKz7qmcGtdBbYQSiYDnswVbqS
+[2025-06-10T05:53:15.997Z] 
+====================================================================================================
+[2025-06-10T05:53:15.998Z] ====================================================================================================
+[2025-06-10T05:53:15.998Z] ====================================================================================================
+
+[2025-06-10T05:53:15.999Z] 
+====================================================================================================
+✅ SWAP COMPLETED ✅
+====================================================================================================
+
+[2025-06-10T06:01:04.433Z] Starting Li.Fi swap process...
+[2025-06-10T06:01:04.434Z] 
+====================================================================================================
+🔄 NEW SWAP REQUEST 🔄
+====================================================================================================
+
+[2025-06-10T06:03:15.407Z] 
+Amount Format Guide:
+[2025-06-10T06:03:15.418Z] For SOL:
+[2025-06-10T06:03:15.418Z] 1 SOL = 1000000000
+[2025-06-10T06:03:15.419Z] 0.1 SOL = 100000000
+[2025-06-10T06:03:15.420Z] 0.01 SOL = 10000000
+[2025-06-10T06:03:15.421Z] 0.001 SOL = 1000000
+[2025-06-10T06:03:36.496Z] 
+Amount Details:
+[2025-06-10T06:03:36.497Z] Input: 1000000000
+[2025-06-10T06:03:36.498Z] Formatted: 1000000000
+[2025-06-10T06:03:36.499Z] 
+=== Starting Cross-Chain Swap Process ===
+[2025-06-10T06:03:36.499Z] Swap Parameters:
+[2025-06-10T06:03:36.500Z] {
+  "fromChain": "sol",
+  "toChain": "eth",
+  "fromToken": "4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump",
+  "toToken": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+  "fromAmount": "1000000000",
+  "fromAddress": "CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj",
+  "toAddress": "0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB"
+}
+[2025-06-10T06:03:36.502Z] 
+=== Checking Li.Fi Connection ===
+[2025-06-10T06:03:37.882Z] 
+✅ Connection found:
+[2025-06-10T06:03:37.883Z] From Chain ID: 1151111081099710
+[2025-06-10T06:03:37.884Z] To Chain ID: 1
+[2025-06-10T06:03:37.885Z] 
+From Token Details:
+[2025-06-10T06:03:37.887Z] Symbol: Trenches
+[2025-06-10T06:03:37.889Z] Name: TheTrenches
+[2025-06-10T06:03:37.890Z] Decimals: 6
+[2025-06-10T06:03:37.892Z] Price USD: $0.00
+[2025-06-10T06:03:37.893Z] 
+To Token Details:
+[2025-06-10T06:03:37.894Z] Symbol: ETH
+[2025-06-10T06:03:37.895Z] Name: ETH
+[2025-06-10T06:03:37.895Z] Decimals: 18
+[2025-06-10T06:03:37.896Z] Price USD: $2675.18
+[2025-06-10T06:03:37.897Z] 
+=== Requesting Li.Fi Quote ===
+[2025-06-10T06:03:38.261Z] 
+⚠️ Invalid address format for target chain
+[2025-06-10T06:03:38.262Z] Please provide a valid address for the target chain
+[2025-06-10T06:03:38.262Z] 
+❌ Error fetching quote: HTTP error! status: 400
+Details: {"message":"Invalid toAddress: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","code":1011}
+[2025-06-10T06:03:38.263Z] 
+Failed Quote Parameters:
+[2025-06-10T06:03:38.264Z] From Chain: sol
+[2025-06-10T06:03:38.265Z] To Chain: eth
+[2025-06-10T06:03:38.265Z] From Token: 4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump
+[2025-06-10T06:03:38.266Z] To Token: 0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+[2025-06-10T06:03:38.267Z] Amount: 1000000000
+[2025-06-10T06:03:38.268Z] From Address: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj
+[2025-06-10T06:03:38.269Z] 
+❌ Error in run: HTTP error! status: 400
+Details: {"message":"Invalid toAddress: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","code":1011}
+[2025-06-10T06:03:38.270Z] 
+Stack trace:
+[2025-06-10T06:03:38.271Z] Error: HTTP error! status: 400
+Details: {"message":"Invalid toAddress: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","code":1011}
+    at getQuote (file:///C:/Users/User/Desktop/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/EscapeVelocity/print.swap/li.fi%20test%202/test-swap.js:231:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async run (file:///C:/Users/User/Desktop/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/EscapeVelocity/print.swap/li.fi%20test%202/test-swap.js:553:23)
+[2025-06-10T06:03:38.272Z] 
+====================================================================================================
+❌ SWAP FAILED ❌
+====================================================================================================
+
+[2025-06-10T06:57:22.623Z] Starting Li.Fi swap process...
+[2025-06-10T06:57:22.625Z] 
+====================================================================================================
+🔄 NEW SWAP REQUEST 🔄
+====================================================================================================
+
+[2025-06-10T06:57:58.704Z] 
+Amount Format Guide:
+[2025-06-10T06:57:58.705Z] For SOL:
+[2025-06-10T06:57:58.706Z] 1 SOL = 1000000000
+[2025-06-10T06:57:58.707Z] 0.1 SOL = 100000000
+[2025-06-10T06:57:58.707Z] 0.01 SOL = 10000000
+[2025-06-10T06:57:58.708Z] 0.001 SOL = 1000000
+[2025-06-10T06:58:16.168Z] 
+Amount Details:
+[2025-06-10T06:58:16.170Z] Input: 1000000000
+[2025-06-10T06:58:16.170Z] Formatted: 1000000000
+[2025-06-10T06:58:16.171Z] 
+=== Starting Cross-Chain Swap Process ===
+[2025-06-10T06:58:16.172Z] Swap Parameters:
+[2025-06-10T06:58:16.173Z] {
+  "fromChain": "sol",
+  "toChain": "eth",
+  "fromToken": "4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump",
+  "toToken": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+  "fromAmount": "1000000000",
+  "fromAddress": "CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj",
+  "toAddress": "0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB"
+}
+[2025-06-10T06:58:16.176Z] 
+=== Checking Li.Fi Connection ===
+[2025-06-10T06:58:16.741Z] 
+✅ Connection found:
+[2025-06-10T06:58:16.742Z] From Chain ID: 1151111081099710
+[2025-06-10T06:58:16.743Z] To Chain ID: 1
+[2025-06-10T06:58:16.744Z] 
+From Token Details:
+[2025-06-10T06:58:16.745Z] Symbol: Trenches
+[2025-06-10T06:58:16.745Z] Name: TheTrenches
+[2025-06-10T06:58:16.746Z] Decimals: 6
+[2025-06-10T06:58:16.746Z] Price USD: $0.00
+[2025-06-10T06:58:16.747Z] 
+To Token Details:
+[2025-06-10T06:58:16.748Z] Symbol: ETH
+[2025-06-10T06:58:16.749Z] Name: ETH
+[2025-06-10T06:58:16.749Z] Decimals: 18
+[2025-06-10T06:58:16.750Z] Price USD: $2675.18
+[2025-06-10T06:58:16.750Z] 
+=== Requesting Li.Fi Quote ===
+[2025-06-10T06:58:17.075Z] 
+⚠️ Invalid address format for target chain
+[2025-06-10T06:58:17.078Z] Please provide a valid address for the target chain
+[2025-06-10T06:58:17.080Z] 
+❌ Error fetching quote: HTTP error! status: 400
+Details: {"message":"Invalid toAddress: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","code":1011}
+[2025-06-10T06:58:17.083Z] 
+Failed Quote Parameters:
+[2025-06-10T06:58:17.084Z] From Chain: sol
+[2025-06-10T06:58:17.085Z] To Chain: eth
+[2025-06-10T06:58:17.085Z] From Token: 4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump
+[2025-06-10T06:58:17.086Z] To Token: 0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+[2025-06-10T06:58:17.086Z] Amount: 1000000000
+[2025-06-10T06:58:17.087Z] From Address: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj
+[2025-06-10T06:58:17.088Z] 
+❌ Error in run: HTTP error! status: 400
+Details: {"message":"Invalid toAddress: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","code":1011}
+[2025-06-10T06:58:17.089Z] 
+Stack trace:
+[2025-06-10T06:58:17.090Z] Error: HTTP error! status: 400
+Details: {"message":"Invalid toAddress: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","code":1011}
+    at getQuote (file:///C:/Users/User/Desktop/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/EscapeVelocity/print.swap/li.fi%20test%202/test-swap.js:231:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async run (file:///C:/Users/User/Desktop/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/EscapeVelocity/print.swap/li.fi%20test%202/test-swap.js:564:23)
+[2025-06-10T06:58:17.091Z] 
+====================================================================================================
+❌ SWAP FAILED ❌
+====================================================================================================
+
+[2025-06-10T06:58:34.736Z] Starting Li.Fi swap process...
+[2025-06-10T06:58:34.737Z] 
+====================================================================================================
+🔄 NEW SWAP REQUEST 🔄
+====================================================================================================
+
+[2025-06-10T06:59:09.704Z] 
+Amount Format Guide:
+[2025-06-10T06:59:09.705Z] For SOL:
+[2025-06-10T06:59:09.705Z] 1 SOL = 1000000000
+[2025-06-10T06:59:09.706Z] 0.1 SOL = 100000000
+[2025-06-10T06:59:09.707Z] 0.01 SOL = 10000000
+[2025-06-10T06:59:09.708Z] 0.001 SOL = 1000000
+[2025-06-10T06:59:21.087Z] 
+Amount Details:
+[2025-06-10T06:59:21.088Z] Input: 1000000000
+[2025-06-10T06:59:21.089Z] Formatted: 1000000000
+[2025-06-10T06:59:21.090Z] 
+=== Starting Cross-Chain Swap Process ===
+[2025-06-10T06:59:21.091Z] Swap Parameters:
+[2025-06-10T06:59:21.091Z] {
+  "fromChain": "sol",
+  "toChain": "eth",
+  "fromToken": "4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump",
+  "toToken": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+  "fromAmount": "1000000000",
+  "fromAddress": "CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj",
+  "toAddress": "0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB"
+}
+[2025-06-10T06:59:21.093Z] 
+=== Checking Li.Fi Connection ===
+[2025-06-10T06:59:21.375Z] 
+✅ Connection found:
+[2025-06-10T06:59:21.376Z] From Chain ID: 1151111081099710
+[2025-06-10T06:59:21.377Z] To Chain ID: 1
+[2025-06-10T06:59:21.378Z] 
+From Token Details:
+[2025-06-10T06:59:21.378Z] Symbol: Trenches
+[2025-06-10T06:59:21.379Z] Name: TheTrenches
+[2025-06-10T06:59:21.379Z] Decimals: 6
+[2025-06-10T06:59:21.380Z] Price USD: $0.00
+[2025-06-10T06:59:21.380Z] 
+To Token Details:
+[2025-06-10T06:59:21.381Z] Symbol: ETH
+[2025-06-10T06:59:21.382Z] Name: ETH
+[2025-06-10T06:59:21.382Z] Decimals: 18
+[2025-06-10T06:59:21.383Z] Price USD: $2675.18
+[2025-06-10T06:59:21.383Z] 
+=== Requesting Li.Fi Quote ===
+[2025-06-10T06:59:21.661Z] 
+⚠️ Invalid address format for target chain
+[2025-06-10T06:59:21.662Z] Please provide a valid address for the target chain
+[2025-06-10T06:59:21.662Z] 
+❌ Error fetching quote: HTTP error! status: 400
+Details: {"message":"Invalid toAddress: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","code":1011}
+[2025-06-10T06:59:21.663Z] 
+Failed Quote Parameters:
+[2025-06-10T06:59:21.664Z] From Chain: sol
+[2025-06-10T06:59:21.664Z] To Chain: eth
+[2025-06-10T06:59:21.665Z] From Token: 4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump
+[2025-06-10T06:59:21.665Z] To Token: 0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+[2025-06-10T06:59:21.666Z] Amount: 1000000000
+[2025-06-10T06:59:21.666Z] From Address: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj
+[2025-06-10T06:59:21.667Z] 
+❌ Error in run: HTTP error! status: 400
+Details: {"message":"Invalid toAddress: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","code":1011}
+[2025-06-10T06:59:21.668Z] 
+Stack trace:
+[2025-06-10T06:59:21.669Z] Error: HTTP error! status: 400
+Details: {"message":"Invalid toAddress: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","code":1011}
+    at getQuote (file:///C:/Users/User/Desktop/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/EscapeVelocity/print.swap/li.fi%20test%202/test-swap.js:231:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async run (file:///C:/Users/User/Desktop/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/EscapeVelocity/print.swap/li.fi%20test%202/test-swap.js:564:23)
+[2025-06-10T06:59:21.670Z] 
+====================================================================================================
+❌ SWAP FAILED ❌
+====================================================================================================
+
+[2025-06-10T07:00:51.383Z] Starting Li.Fi swap process...
+[2025-06-10T07:00:51.386Z] 
+====================================================================================================
+🔄 NEW SWAP REQUEST 🔄
+====================================================================================================
+
+[2025-06-10T07:01:10.234Z] 
+Amount Format Guide:
+[2025-06-10T07:01:10.235Z] For SOL:
+[2025-06-10T07:01:10.236Z] 1 SOL = 1000000000
+[2025-06-10T07:01:10.237Z] 0.1 SOL = 100000000
+[2025-06-10T07:01:10.238Z] 0.01 SOL = 10000000
+[2025-06-10T07:01:10.239Z] 0.001 SOL = 1000000
+[2025-06-10T07:01:19.843Z] 
+Amount Details:
+[2025-06-10T07:01:19.844Z] Input: 1000000000
+[2025-06-10T07:01:19.845Z] Formatted: 1000000000
+[2025-06-10T07:01:19.846Z] 
+=== Starting Cross-Chain Swap Process ===
+[2025-06-10T07:01:19.847Z] Swap Parameters:
+[2025-06-10T07:01:19.848Z] {
+  "fromChain": "sol",
+  "toChain": "eth",
+  "fromToken": "4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump",
+  "toToken": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+  "fromAmount": "1000000000",
+  "fromAddress": "CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj",
+  "toAddress": "0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB"
+}
+[2025-06-10T07:01:19.850Z] 
+=== Checking Li.Fi Connection ===
+[2025-06-10T07:01:20.191Z] 
+✅ Connection found:
+[2025-06-10T07:01:20.192Z] From Chain ID: 1151111081099710
+[2025-06-10T07:01:20.193Z] To Chain ID: 1
+[2025-06-10T07:01:20.194Z] 
+From Token Details:
+[2025-06-10T07:01:20.194Z] Symbol: Trenches
+[2025-06-10T07:01:20.195Z] Name: TheTrenches
+[2025-06-10T07:01:20.196Z] Decimals: 6
+[2025-06-10T07:01:20.197Z] Price USD: $0.00
+[2025-06-10T07:01:20.197Z] 
+To Token Details:
+[2025-06-10T07:01:20.198Z] Symbol: ETH
+[2025-06-10T07:01:20.199Z] Name: ETH
+[2025-06-10T07:01:20.199Z] Decimals: 18
+[2025-06-10T07:01:20.200Z] Price USD: $2675.18
+[2025-06-10T07:01:20.201Z] 
+=== Requesting Li.Fi Quote ===
+[2025-06-10T07:01:23.297Z] 
+❌ Error fetching quote: HTTP error! status: 404
+Details: {"message":"No available quotes for the requested transfer","code":1002,"errors":{"filteredOut":[{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-allbridge-1:USDC-1:USDC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDT-1151111081099710:USDT-allbridge-1:USDC-1:USDC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-allbridge-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDT-1151111081099710:USDT-allbridge-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches-mayanWH-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches-mayanWH-1:WBTC-1:WBTC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:FLIP-1:FLIP~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:USDC-1:USDC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:FLIP-1:FLIP~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:USDC-1:USDC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."}],"failed":[{"overallPath":"1151111081099710:Trenches-mayanMCTP-1:ETH","subpaths":{"1151111081099710:Trenches-mayanMCTP-1:ETH":[{"errorType":"NO_QUOTE","code":"AMOUNT_TOO_LOW","action":{"fromChainId":1151111081099710,"fromAmount":"1000000000","fromToken":{"address":"4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump","chainId":1151111081099710,"symbol":"Trenches","decimals":6,"name":"TheTrenches","logoURI":"https://ipfs.io/ipfs/QmPKiNpsC2qHNxNbzJhQiMf1wenyoQQDvw5vK1xDGQj4Nu","priceUSD":"0.00143696"},"toChainId":1,"toToken":{"address":"0x0000000000000000000000000000000000000000","chainId":1,"symbol":"ETH","decimals":18,"name":"ETH","coinKey":"ETH","logoURI":"https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png","priceUSD":"2669.240694"},"fromAddress":"CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","toAddress":"0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB","destinationGasConsumption":"0"},"tool":"mayanMCTP","message":"AMOUNT_TOO_LOW"}]}},{"overallPath":"1151111081099710:Trenches-mayanWH-1:ETH","subpaths":{"1151111081099710:Trenches-mayanWH-1:ETH":[{"errorType":"NO_QUOTE","code":"UNKNOWN_ERROR","action":{"fromChainId":1151111081099710,"fromAmount":"1000000000","fromToken":{"address":"4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump","chainId":1151111081099710,"symbol":"Trenches","decimals":6,"name":"TheTrenches","logoURI":"https://ipfs.io/ipfs/QmPKiNpsC2qHNxNbzJhQiMf1wenyoQQDvw5vK1xDGQj4Nu","priceUSD":"0.00143696"},"toChainId":1,"toToken":{"address":"0x0000000000000000000000000000000000000000","chainId":1,"symbol":"ETH","decimals":18,"name":"ETH","coinKey":"ETH","logoURI":"https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png","priceUSD":"2669.240694"},"fromAddress":"CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","toAddress":"0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB","destinationGasConsumption":"0"},"tool":"mayanWH","message":"UNKNOWN_ERROR"}]}},{"overallPath":"1151111081099710:Trenches-mayan-1:ETH","subpaths":{"1151111081099710:Trenches-mayan-1:ETH":[{"errorType":"NO_QUOTE","code":"AMOUNT_TOO_LOW","action":{"fromChainId":1151111081099710,"fromAmount":"1000000000","fromToken":{"address":"4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump","chainId":1151111081099710,"symbol":"Trenches","decimals":6,"name":"TheTrenches","logoURI":"https://ipfs.io/ipfs/QmPKiNpsC2qHNxNbzJhQiMf1wenyoQQDvw5vK1xDGQj4Nu","priceUSD":"0.00143696"},"toChainId":1,"toToken":{"address":"0x0000000000000000000000000000000000000000","chainId":1,"symbol":"ETH","decimals":18,"name":"ETH","coinKey":"ETH","logoURI":"https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png","priceUSD":"2669.240694"},"fromAddress":"CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","toAddress":"0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB","destinationGasConsumption":"0"},"tool":"mayan","message":"AMOUNT_TOO_LOW"}]}}]}}
+[2025-06-10T07:01:23.302Z] 
+Failed Quote Parameters:
+[2025-06-10T07:01:23.303Z] From Chain: sol
+[2025-06-10T07:01:23.304Z] To Chain: eth
+[2025-06-10T07:01:23.304Z] From Token: 4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump
+[2025-06-10T07:01:23.305Z] To Token: 0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+[2025-06-10T07:01:23.306Z] Amount: 1000000000
+[2025-06-10T07:01:23.306Z] From Address: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj
+[2025-06-10T07:01:23.307Z] To Address: 0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB
+[2025-06-10T07:01:23.307Z] 
+❌ Error in run: HTTP error! status: 404
+Details: {"message":"No available quotes for the requested transfer","code":1002,"errors":{"filteredOut":[{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-allbridge-1:USDC-1:USDC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDT-1151111081099710:USDT-allbridge-1:USDC-1:USDC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-allbridge-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDT-1151111081099710:USDT-allbridge-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches-mayanWH-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches-mayanWH-1:WBTC-1:WBTC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:FLIP-1:FLIP~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:USDC-1:USDC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:FLIP-1:FLIP~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:USDC-1:USDC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."}],"failed":[{"overallPath":"1151111081099710:Trenches-mayanMCTP-1:ETH","subpaths":{"1151111081099710:Trenches-mayanMCTP-1:ETH":[{"errorType":"NO_QUOTE","code":"AMOUNT_TOO_LOW","action":{"fromChainId":1151111081099710,"fromAmount":"1000000000","fromToken":{"address":"4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump","chainId":1151111081099710,"symbol":"Trenches","decimals":6,"name":"TheTrenches","logoURI":"https://ipfs.io/ipfs/QmPKiNpsC2qHNxNbzJhQiMf1wenyoQQDvw5vK1xDGQj4Nu","priceUSD":"0.00143696"},"toChainId":1,"toToken":{"address":"0x0000000000000000000000000000000000000000","chainId":1,"symbol":"ETH","decimals":18,"name":"ETH","coinKey":"ETH","logoURI":"https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png","priceUSD":"2669.240694"},"fromAddress":"CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","toAddress":"0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB","destinationGasConsumption":"0"},"tool":"mayanMCTP","message":"AMOUNT_TOO_LOW"}]}},{"overallPath":"1151111081099710:Trenches-mayanWH-1:ETH","subpaths":{"1151111081099710:Trenches-mayanWH-1:ETH":[{"errorType":"NO_QUOTE","code":"UNKNOWN_ERROR","action":{"fromChainId":1151111081099710,"fromAmount":"1000000000","fromToken":{"address":"4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump","chainId":1151111081099710,"symbol":"Trenches","decimals":6,"name":"TheTrenches","logoURI":"https://ipfs.io/ipfs/QmPKiNpsC2qHNxNbzJhQiMf1wenyoQQDvw5vK1xDGQj4Nu","priceUSD":"0.00143696"},"toChainId":1,"toToken":{"address":"0x0000000000000000000000000000000000000000","chainId":1,"symbol":"ETH","decimals":18,"name":"ETH","coinKey":"ETH","logoURI":"https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png","priceUSD":"2669.240694"},"fromAddress":"CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","toAddress":"0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB","destinationGasConsumption":"0"},"tool":"mayanWH","message":"UNKNOWN_ERROR"}]}},{"overallPath":"1151111081099710:Trenches-mayan-1:ETH","subpaths":{"1151111081099710:Trenches-mayan-1:ETH":[{"errorType":"NO_QUOTE","code":"AMOUNT_TOO_LOW","action":{"fromChainId":1151111081099710,"fromAmount":"1000000000","fromToken":{"address":"4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump","chainId":1151111081099710,"symbol":"Trenches","decimals":6,"name":"TheTrenches","logoURI":"https://ipfs.io/ipfs/QmPKiNpsC2qHNxNbzJhQiMf1wenyoQQDvw5vK1xDGQj4Nu","priceUSD":"0.00143696"},"toChainId":1,"toToken":{"address":"0x0000000000000000000000000000000000000000","chainId":1,"symbol":"ETH","decimals":18,"name":"ETH","coinKey":"ETH","logoURI":"https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png","priceUSD":"2669.240694"},"fromAddress":"CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","toAddress":"0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB","destinationGasConsumption":"0"},"tool":"mayan","message":"AMOUNT_TOO_LOW"}]}}]}}
+[2025-06-10T07:01:23.311Z] 
+Stack trace:
+[2025-06-10T07:01:23.312Z] Error: HTTP error! status: 404
+Details: {"message":"No available quotes for the requested transfer","code":1002,"errors":{"filteredOut":[{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-allbridge-1:USDC-1:USDC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDT-1151111081099710:USDT-allbridge-1:USDC-1:USDC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-allbridge-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDT-1151111081099710:USDT-allbridge-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches-mayanWH-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches-mayanWH-1:WBTC-1:WBTC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:FLIP-1:FLIP~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:USDC-1:USDC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:FLIP-1:FLIP~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:USDC-1:USDC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."}],"failed":[{"overallPath":"1151111081099710:Trenches-mayanMCTP-1:ETH","subpaths":{"1151111081099710:Trenches-mayanMCTP-1:ETH":[{"errorType":"NO_QUOTE","code":"AMOUNT_TOO_LOW","action":{"fromChainId":1151111081099710,"fromAmount":"1000000000","fromToken":{"address":"4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump","chainId":1151111081099710,"symbol":"Trenches","decimals":6,"name":"TheTrenches","logoURI":"https://ipfs.io/ipfs/QmPKiNpsC2qHNxNbzJhQiMf1wenyoQQDvw5vK1xDGQj4Nu","priceUSD":"0.00143696"},"toChainId":1,"toToken":{"address":"0x0000000000000000000000000000000000000000","chainId":1,"symbol":"ETH","decimals":18,"name":"ETH","coinKey":"ETH","logoURI":"https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png","priceUSD":"2669.240694"},"fromAddress":"CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","toAddress":"0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB","destinationGasConsumption":"0"},"tool":"mayanMCTP","message":"AMOUNT_TOO_LOW"}]}},{"overallPath":"1151111081099710:Trenches-mayanWH-1:ETH","subpaths":{"1151111081099710:Trenches-mayanWH-1:ETH":[{"errorType":"NO_QUOTE","code":"UNKNOWN_ERROR","action":{"fromChainId":1151111081099710,"fromAmount":"1000000000","fromToken":{"address":"4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump","chainId":1151111081099710,"symbol":"Trenches","decimals":6,"name":"TheTrenches","logoURI":"https://ipfs.io/ipfs/QmPKiNpsC2qHNxNbzJhQiMf1wenyoQQDvw5vK1xDGQj4Nu","priceUSD":"0.00143696"},"toChainId":1,"toToken":{"address":"0x0000000000000000000000000000000000000000","chainId":1,"symbol":"ETH","decimals":18,"name":"ETH","coinKey":"ETH","logoURI":"https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png","priceUSD":"2669.240694"},"fromAddress":"CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","toAddress":"0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB","destinationGasConsumption":"0"},"tool":"mayanWH","message":"UNKNOWN_ERROR"}]}},{"overallPath":"1151111081099710:Trenches-mayan-1:ETH","subpaths":{"1151111081099710:Trenches-mayan-1:ETH":[{"errorType":"NO_QUOTE","code":"AMOUNT_TOO_LOW","action":{"fromChainId":1151111081099710,"fromAmount":"1000000000","fromToken":{"address":"4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump","chainId":1151111081099710,"symbol":"Trenches","decimals":6,"name":"TheTrenches","logoURI":"https://ipfs.io/ipfs/QmPKiNpsC2qHNxNbzJhQiMf1wenyoQQDvw5vK1xDGQj4Nu","priceUSD":"0.00143696"},"toChainId":1,"toToken":{"address":"0x0000000000000000000000000000000000000000","chainId":1,"symbol":"ETH","decimals":18,"name":"ETH","coinKey":"ETH","logoURI":"https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png","priceUSD":"2669.240694"},"fromAddress":"CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","toAddress":"0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB","destinationGasConsumption":"0"},"tool":"mayan","message":"AMOUNT_TOO_LOW"}]}}]}}
+    at getQuote (file:///C:/Users/User/Desktop/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/EscapeVelocity/print.swap/li.fi%20test%202/test-swap.js:232:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async run (file:///C:/Users/User/Desktop/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/EscapeVelocity/print.swap/li.fi%20test%202/test-swap.js:566:23)
+[2025-06-10T07:01:23.316Z] 
+====================================================================================================
+❌ SWAP FAILED ❌
+====================================================================================================
+
+[2025-06-10T07:04:03.839Z] Starting Li.Fi swap process...
+[2025-06-10T07:04:03.840Z] 
+====================================================================================================
+🔄 NEW SWAP REQUEST 🔄
+====================================================================================================
+
+[2025-06-10T07:04:36.099Z] 
+Amount Format Guide:
+[2025-06-10T07:04:36.100Z] For SOL:
+[2025-06-10T07:04:36.100Z] 1 SOL = 1000000000
+[2025-06-10T07:04:36.101Z] 0.1 SOL = 100000000
+[2025-06-10T07:04:36.102Z] 0.01 SOL = 10000000
+[2025-06-10T07:04:36.102Z] 0.001 SOL = 1000000
+[2025-06-10T07:04:46.335Z] 
+Amount Details:
+[2025-06-10T07:04:46.336Z] Input: 10000000000
+[2025-06-10T07:04:46.336Z] Formatted: 10000000000
+[2025-06-10T07:04:46.337Z] 
+=== Starting Cross-Chain Swap Process ===
+[2025-06-10T07:04:46.338Z] Swap Parameters:
+[2025-06-10T07:04:46.338Z] {
+  "fromChain": "sol",
+  "toChain": "eth",
+  "fromToken": "4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump",
+  "toToken": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+  "fromAmount": "10000000000",
+  "fromAddress": "CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj",
+  "toAddress": "0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB"
+}
+[2025-06-10T07:04:46.340Z] 
+=== Checking Li.Fi Connection ===
+[2025-06-10T07:04:46.820Z] 
+✅ Connection found:
+[2025-06-10T07:04:46.821Z] From Chain ID: 1151111081099710
+[2025-06-10T07:04:46.822Z] To Chain ID: 1
+[2025-06-10T07:04:46.822Z] 
+From Token Details:
+[2025-06-10T07:04:46.823Z] Symbol: Trenches
+[2025-06-10T07:04:46.823Z] Name: TheTrenches
+[2025-06-10T07:04:46.824Z] Decimals: 6
+[2025-06-10T07:04:46.824Z] Price USD: $0.00
+[2025-06-10T07:04:46.825Z] 
+To Token Details:
+[2025-06-10T07:04:46.825Z] Symbol: ETH
+[2025-06-10T07:04:46.826Z] Name: ETH
+[2025-06-10T07:04:46.826Z] Decimals: 18
+[2025-06-10T07:04:46.827Z] Price USD: $2675.18
+[2025-06-10T07:04:46.828Z] 
+=== Requesting Li.Fi Quote ===
+[2025-06-10T07:04:46.828Z] Using direct bridge preference
+[2025-06-10T07:04:47.989Z] 
+⚠️ No available quotes
+[2025-06-10T07:04:47.990Z] 
+Filtered out paths:
+[2025-06-10T07:04:47.991Z] - Price impact of 66.98248009741883% is higher than the max allowed 10%
+[2025-06-10T07:04:47.991Z] - Price impact of 13.726138859169998% is higher than the max allowed 10%
+[2025-06-10T07:04:47.992Z] - Multi-step transactions are not supported for SVM chains now.
+[2025-06-10T07:04:47.992Z] - Multi-step transactions are not supported for SVM chains now.
+[2025-06-10T07:04:47.993Z] 
+Failed paths:
+[2025-06-10T07:04:47.994Z] - UNKNOWN_ERROR
+[2025-06-10T07:04:47.994Z] 
+❌ Error fetching quote: HTTP error! status: 404
+Details: {"message":"No available quotes for the requested transfer","code":1002,"errors":{"filteredOut":[{"overallPath":"1151111081099710:Trenches-mayanMCTP-1:ETH","reason":"Price impact of 66.98248009741883% is higher than the max allowed 10%"},{"overallPath":"1151111081099710:Trenches-mayan-1:ETH","reason":"Price impact of 13.726138859169998% is higher than the max allowed 10%"},{"overallPath":"1151111081099710:Trenches-mayanWH-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches-mayanWH-1:WBTC-1:WBTC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."}],"failed":[{"overallPath":"1151111081099710:Trenches-mayanWH-1:ETH","subpaths":{"1151111081099710:Trenches-mayanWH-1:ETH":[{"errorType":"NO_QUOTE","code":"UNKNOWN_ERROR","action":{"fromChainId":1151111081099710,"fromAmount":"10000000000","fromToken":{"address":"4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump","chainId":1151111081099710,"symbol":"Trenches","decimals":6,"name":"TheTrenches","logoURI":"https://ipfs.io/ipfs/QmPKiNpsC2qHNxNbzJhQiMf1wenyoQQDvw5vK1xDGQj4Nu","priceUSD":"0.00142072"},"toChainId":1,"toToken":{"address":"0x0000000000000000000000000000000000000000","chainId":1,"symbol":"ETH","decimals":18,"name":"ETH","coinKey":"ETH","logoURI":"https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png","priceUSD":"2679.047666"},"fromAddress":"CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","toAddress":"0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB","destinationGasConsumption":"0"},"tool":"mayanWH","message":"UNKNOWN_ERROR"}]}}]}}
+[2025-06-10T07:04:47.997Z] 
+Failed Quote Parameters:
+[2025-06-10T07:04:47.998Z] From Chain: sol
+[2025-06-10T07:04:47.999Z] To Chain: eth
+[2025-06-10T07:04:47.999Z] From Token: 4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump
+[2025-06-10T07:04:48.000Z] To Token: 0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+[2025-06-10T07:04:48.001Z] Amount: 10000000000
+[2025-06-10T07:04:48.001Z] From Address: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj
+[2025-06-10T07:04:48.002Z] To Address: 0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB
+[2025-06-10T07:04:48.002Z] 
+❌ Error in run: HTTP error! status: 404
+Details: {"message":"No available quotes for the requested transfer","code":1002,"errors":{"filteredOut":[{"overallPath":"1151111081099710:Trenches-mayanMCTP-1:ETH","reason":"Price impact of 66.98248009741883% is higher than the max allowed 10%"},{"overallPath":"1151111081099710:Trenches-mayan-1:ETH","reason":"Price impact of 13.726138859169998% is higher than the max allowed 10%"},{"overallPath":"1151111081099710:Trenches-mayanWH-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches-mayanWH-1:WBTC-1:WBTC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."}],"failed":[{"overallPath":"1151111081099710:Trenches-mayanWH-1:ETH","subpaths":{"1151111081099710:Trenches-mayanWH-1:ETH":[{"errorType":"NO_QUOTE","code":"UNKNOWN_ERROR","action":{"fromChainId":1151111081099710,"fromAmount":"10000000000","fromToken":{"address":"4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump","chainId":1151111081099710,"symbol":"Trenches","decimals":6,"name":"TheTrenches","logoURI":"https://ipfs.io/ipfs/QmPKiNpsC2qHNxNbzJhQiMf1wenyoQQDvw5vK1xDGQj4Nu","priceUSD":"0.00142072"},"toChainId":1,"toToken":{"address":"0x0000000000000000000000000000000000000000","chainId":1,"symbol":"ETH","decimals":18,"name":"ETH","coinKey":"ETH","logoURI":"https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png","priceUSD":"2679.047666"},"fromAddress":"CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","toAddress":"0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB","destinationGasConsumption":"0"},"tool":"mayanWH","message":"UNKNOWN_ERROR"}]}}]}}
+[2025-06-10T07:04:48.005Z] 
+Stack trace:
+[2025-06-10T07:04:48.006Z] Error: HTTP error! status: 404
+Details: {"message":"No available quotes for the requested transfer","code":1002,"errors":{"filteredOut":[{"overallPath":"1151111081099710:Trenches-mayanMCTP-1:ETH","reason":"Price impact of 66.98248009741883% is higher than the max allowed 10%"},{"overallPath":"1151111081099710:Trenches-mayan-1:ETH","reason":"Price impact of 13.726138859169998% is higher than the max allowed 10%"},{"overallPath":"1151111081099710:Trenches-mayanWH-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches-mayanWH-1:WBTC-1:WBTC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."}],"failed":[{"overallPath":"1151111081099710:Trenches-mayanWH-1:ETH","subpaths":{"1151111081099710:Trenches-mayanWH-1:ETH":[{"errorType":"NO_QUOTE","code":"UNKNOWN_ERROR","action":{"fromChainId":1151111081099710,"fromAmount":"10000000000","fromToken":{"address":"4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump","chainId":1151111081099710,"symbol":"Trenches","decimals":6,"name":"TheTrenches","logoURI":"https://ipfs.io/ipfs/QmPKiNpsC2qHNxNbzJhQiMf1wenyoQQDvw5vK1xDGQj4Nu","priceUSD":"0.00142072"},"toChainId":1,"toToken":{"address":"0x0000000000000000000000000000000000000000","chainId":1,"symbol":"ETH","decimals":18,"name":"ETH","coinKey":"ETH","logoURI":"https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png","priceUSD":"2679.047666"},"fromAddress":"CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","toAddress":"0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB","destinationGasConsumption":"0"},"tool":"mayanWH","message":"UNKNOWN_ERROR"}]}}]}}
+    at getQuote (file:///C:/Users/User/Desktop/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/EscapeVelocity/print.swap/li.fi%20test%202/test-swap.js:253:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async run (file:///C:/Users/User/Desktop/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/EscapeVelocity/print.swap/li.fi%20test%202/test-swap.js:587:23)
+[2025-06-10T07:04:48.008Z] 
+====================================================================================================
+❌ SWAP FAILED ❌
+====================================================================================================
+
+[2025-06-10T07:06:18.993Z] Starting Li.Fi swap process...
+[2025-06-10T07:06:18.994Z] 
+====================================================================================================
+🔄 NEW SWAP REQUEST 🔄
+====================================================================================================
+
+[2025-06-10T07:06:42.618Z] 
+Amount Format Guide:
+[2025-06-10T07:06:42.619Z] For SOL:
+[2025-06-10T07:06:42.620Z] 1 SOL = 1000000000
+[2025-06-10T07:06:42.621Z] 0.1 SOL = 100000000
+[2025-06-10T07:06:42.622Z] 0.01 SOL = 10000000
+[2025-06-10T07:06:42.623Z] 0.001 SOL = 1000000
+[2025-06-10T07:06:52.529Z] 
+Amount Details:
+[2025-06-10T07:06:52.530Z] Input: 2000000000
+[2025-06-10T07:06:52.531Z] Formatted: 2000000000
+[2025-06-10T07:06:52.532Z] 
+=== Starting Cross-Chain Swap Process ===
+[2025-06-10T07:06:52.532Z] Swap Parameters:
+[2025-06-10T07:06:52.533Z] {
+  "fromChain": "sol",
+  "toChain": "eth",
+  "fromToken": "4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump",
+  "toToken": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+  "fromAmount": "2000000000",
+  "fromAddress": "CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj",
+  "toAddress": "0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB"
+}
+[2025-06-10T07:06:52.535Z] 
+=== Checking Li.Fi Connection ===
+[2025-06-10T07:06:52.885Z] 
+✅ Connection found:
+[2025-06-10T07:06:52.886Z] From Chain ID: 1151111081099710
+[2025-06-10T07:06:52.886Z] To Chain ID: 1
+[2025-06-10T07:06:52.887Z] 
+From Token Details:
+[2025-06-10T07:06:52.888Z] Symbol: Trenches
+[2025-06-10T07:06:52.888Z] Name: TheTrenches
+[2025-06-10T07:06:52.889Z] Decimals: 6
+[2025-06-10T07:06:52.889Z] Price USD: $0.00
+[2025-06-10T07:06:52.890Z] 
+To Token Details:
+[2025-06-10T07:06:52.891Z] Symbol: ETH
+[2025-06-10T07:06:52.891Z] Name: ETH
+[2025-06-10T07:06:52.892Z] Decimals: 18
+[2025-06-10T07:06:52.892Z] Price USD: $2675.18
+[2025-06-10T07:06:52.893Z] 
+=== Requesting Li.Fi Quote ===
+[2025-06-10T07:06:52.894Z] Using direct bridge preference
+[2025-06-10T07:06:56.352Z] 
+⚠️ No available quotes
+[2025-06-10T07:06:56.354Z] 
+Filtered out paths:
+[2025-06-10T07:06:56.357Z] - Multi-step transactions are not supported for SVM chains now.
+[2025-06-10T07:06:56.359Z] - Multi-step transactions are not supported for SVM chains now.
+[2025-06-10T07:06:56.360Z] - Multi-step transactions are not supported for SVM chains now.
+[2025-06-10T07:06:56.361Z] - Multi-step transactions are not supported for SVM chains now.
+[2025-06-10T07:06:56.361Z] - Multi-step transactions are not supported for SVM chains now.
+[2025-06-10T07:06:56.362Z] - Multi-step transactions are not supported for SVM chains now.
+[2025-06-10T07:06:56.363Z] - Multi-step transactions are not supported for SVM chains now.
+[2025-06-10T07:06:56.363Z] - Multi-step transactions are not supported for SVM chains now.
+[2025-06-10T07:06:56.364Z] - Multi-step transactions are not supported for SVM chains now.
+[2025-06-10T07:06:56.365Z] - Multi-step transactions are not supported for SVM chains now.
+[2025-06-10T07:06:56.366Z] - Multi-step transactions are not supported for SVM chains now.
+[2025-06-10T07:06:56.366Z] - Multi-step transactions are not supported for SVM chains now.
+[2025-06-10T07:06:56.367Z] - Multi-step transactions are not supported for SVM chains now.
+[2025-06-10T07:06:56.367Z] - Multi-step transactions are not supported for SVM chains now.
+[2025-06-10T07:06:56.368Z] 
+Failed paths:
+[2025-06-10T07:06:56.369Z] - UNKNOWN_ERROR
+[2025-06-10T07:06:56.369Z] - AMOUNT_TOO_LOW
+[2025-06-10T07:06:56.370Z] - AMOUNT_TOO_LOW
+[2025-06-10T07:06:56.372Z] 
+❌ Error fetching quote: HTTP error! status: 404
+Details: {"message":"No available quotes for the requested transfer","code":1002,"errors":{"filteredOut":[{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-allbridge-1:USDC-1:USDC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDT-1151111081099710:USDT-allbridge-1:USDC-1:USDC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-allbridge-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDT-1151111081099710:USDT-allbridge-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches-mayanWH-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches-mayanWH-1:WBTC-1:WBTC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:FLIP-1:FLIP~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:USDC-1:USDC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:FLIP-1:FLIP~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:USDC-1:USDC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."}],"failed":[{"overallPath":"1151111081099710:Trenches-mayanWH-1:ETH","subpaths":{"1151111081099710:Trenches-mayanWH-1:ETH":[{"errorType":"NO_QUOTE","code":"UNKNOWN_ERROR","action":{"fromChainId":1151111081099710,"fromAmount":"2000000000","fromToken":{"address":"4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump","chainId":1151111081099710,"symbol":"Trenches","decimals":6,"name":"TheTrenches","logoURI":"https://ipfs.io/ipfs/QmPKiNpsC2qHNxNbzJhQiMf1wenyoQQDvw5vK1xDGQj4Nu","priceUSD":"0.00142072"},"toChainId":1,"toToken":{"address":"0x0000000000000000000000000000000000000000","chainId":1,"symbol":"ETH","decimals":18,"name":"ETH","coinKey":"ETH","logoURI":"https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png","priceUSD":"2679.047666"},"fromAddress":"CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","toAddress":"0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB","destinationGasConsumption":"0"},"tool":"mayanWH","message":"UNKNOWN_ERROR"}]}},{"overallPath":"1151111081099710:Trenches-mayanMCTP-1:ETH","subpaths":{"1151111081099710:Trenches-mayanMCTP-1:ETH":[{"errorType":"NO_QUOTE","code":"AMOUNT_TOO_LOW","action":{"fromChainId":1151111081099710,"fromAmount":"2000000000","fromToken":{"address":"4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump","chainId":1151111081099710,"symbol":"Trenches","decimals":6,"name":"TheTrenches","logoURI":"https://ipfs.io/ipfs/QmPKiNpsC2qHNxNbzJhQiMf1wenyoQQDvw5vK1xDGQj4Nu","priceUSD":"0.00142072"},"toChainId":1,"toToken":{"address":"0x0000000000000000000000000000000000000000","chainId":1,"symbol":"ETH","decimals":18,"name":"ETH","coinKey":"ETH","logoURI":"https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png","priceUSD":"2679.047666"},"fromAddress":"CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","toAddress":"0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB","destinationGasConsumption":"0"},"tool":"mayanMCTP","message":"AMOUNT_TOO_LOW"}]}},{"overallPath":"1151111081099710:Trenches-mayan-1:ETH","subpaths":{"1151111081099710:Trenches-mayan-1:ETH":[{"errorType":"NO_QUOTE","code":"AMOUNT_TOO_LOW","action":{"fromChainId":1151111081099710,"fromAmount":"2000000000","fromToken":{"address":"4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump","chainId":1151111081099710,"symbol":"Trenches","decimals":6,"name":"TheTrenches","logoURI":"https://ipfs.io/ipfs/QmPKiNpsC2qHNxNbzJhQiMf1wenyoQQDvw5vK1xDGQj4Nu","priceUSD":"0.00142072"},"toChainId":1,"toToken":{"address":"0x0000000000000000000000000000000000000000","chainId":1,"symbol":"ETH","decimals":18,"name":"ETH","coinKey":"ETH","logoURI":"https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png","priceUSD":"2679.047666"},"fromAddress":"CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","toAddress":"0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB","destinationGasConsumption":"0"},"tool":"mayan","message":"AMOUNT_TOO_LOW"}]}}]}}
+[2025-06-10T07:06:56.379Z] 
+Failed Quote Parameters:
+[2025-06-10T07:06:56.380Z] From Chain: sol
+[2025-06-10T07:06:56.380Z] To Chain: eth
+[2025-06-10T07:06:56.381Z] From Token: 4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump
+[2025-06-10T07:06:56.381Z] To Token: 0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+[2025-06-10T07:06:56.381Z] Amount: 2000000000
+[2025-06-10T07:06:56.382Z] From Address: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj
+[2025-06-10T07:06:56.382Z] To Address: 0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB
+[2025-06-10T07:06:56.383Z] 
+❌ Error in run: HTTP error! status: 404
+Details: {"message":"No available quotes for the requested transfer","code":1002,"errors":{"filteredOut":[{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-allbridge-1:USDC-1:USDC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDT-1151111081099710:USDT-allbridge-1:USDC-1:USDC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-allbridge-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDT-1151111081099710:USDT-allbridge-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches-mayanWH-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches-mayanWH-1:WBTC-1:WBTC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:FLIP-1:FLIP~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:USDC-1:USDC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:FLIP-1:FLIP~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:USDC-1:USDC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."}],"failed":[{"overallPath":"1151111081099710:Trenches-mayanWH-1:ETH","subpaths":{"1151111081099710:Trenches-mayanWH-1:ETH":[{"errorType":"NO_QUOTE","code":"UNKNOWN_ERROR","action":{"fromChainId":1151111081099710,"fromAmount":"2000000000","fromToken":{"address":"4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump","chainId":1151111081099710,"symbol":"Trenches","decimals":6,"name":"TheTrenches","logoURI":"https://ipfs.io/ipfs/QmPKiNpsC2qHNxNbzJhQiMf1wenyoQQDvw5vK1xDGQj4Nu","priceUSD":"0.00142072"},"toChainId":1,"toToken":{"address":"0x0000000000000000000000000000000000000000","chainId":1,"symbol":"ETH","decimals":18,"name":"ETH","coinKey":"ETH","logoURI":"https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png","priceUSD":"2679.047666"},"fromAddress":"CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","toAddress":"0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB","destinationGasConsumption":"0"},"tool":"mayanWH","message":"UNKNOWN_ERROR"}]}},{"overallPath":"1151111081099710:Trenches-mayanMCTP-1:ETH","subpaths":{"1151111081099710:Trenches-mayanMCTP-1:ETH":[{"errorType":"NO_QUOTE","code":"AMOUNT_TOO_LOW","action":{"fromChainId":1151111081099710,"fromAmount":"2000000000","fromToken":{"address":"4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump","chainId":1151111081099710,"symbol":"Trenches","decimals":6,"name":"TheTrenches","logoURI":"https://ipfs.io/ipfs/QmPKiNpsC2qHNxNbzJhQiMf1wenyoQQDvw5vK1xDGQj4Nu","priceUSD":"0.00142072"},"toChainId":1,"toToken":{"address":"0x0000000000000000000000000000000000000000","chainId":1,"symbol":"ETH","decimals":18,"name":"ETH","coinKey":"ETH","logoURI":"https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png","priceUSD":"2679.047666"},"fromAddress":"CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","toAddress":"0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB","destinationGasConsumption":"0"},"tool":"mayanMCTP","message":"AMOUNT_TOO_LOW"}]}},{"overallPath":"1151111081099710:Trenches-mayan-1:ETH","subpaths":{"1151111081099710:Trenches-mayan-1:ETH":[{"errorType":"NO_QUOTE","code":"AMOUNT_TOO_LOW","action":{"fromChainId":1151111081099710,"fromAmount":"2000000000","fromToken":{"address":"4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump","chainId":1151111081099710,"symbol":"Trenches","decimals":6,"name":"TheTrenches","logoURI":"https://ipfs.io/ipfs/QmPKiNpsC2qHNxNbzJhQiMf1wenyoQQDvw5vK1xDGQj4Nu","priceUSD":"0.00142072"},"toChainId":1,"toToken":{"address":"0x0000000000000000000000000000000000000000","chainId":1,"symbol":"ETH","decimals":18,"name":"ETH","coinKey":"ETH","logoURI":"https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png","priceUSD":"2679.047666"},"fromAddress":"CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","toAddress":"0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB","destinationGasConsumption":"0"},"tool":"mayan","message":"AMOUNT_TOO_LOW"}]}}]}}
+[2025-06-10T07:06:56.387Z] 
+Stack trace:
+[2025-06-10T07:06:56.388Z] Error: HTTP error! status: 404
+Details: {"message":"No available quotes for the requested transfer","code":1002,"errors":{"filteredOut":[{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-allbridge-1:USDC-1:USDC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDT-1151111081099710:USDT-allbridge-1:USDC-1:USDC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-allbridge-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDT-1151111081099710:USDT-allbridge-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches-mayanWH-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches-mayanWH-1:WBTC-1:WBTC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:FLIP-1:FLIP~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:USDC-1:USDC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:FLIP-1:FLIP~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:USDC-1:USDC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."}],"failed":[{"overallPath":"1151111081099710:Trenches-mayanWH-1:ETH","subpaths":{"1151111081099710:Trenches-mayanWH-1:ETH":[{"errorType":"NO_QUOTE","code":"UNKNOWN_ERROR","action":{"fromChainId":1151111081099710,"fromAmount":"2000000000","fromToken":{"address":"4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump","chainId":1151111081099710,"symbol":"Trenches","decimals":6,"name":"TheTrenches","logoURI":"https://ipfs.io/ipfs/QmPKiNpsC2qHNxNbzJhQiMf1wenyoQQDvw5vK1xDGQj4Nu","priceUSD":"0.00142072"},"toChainId":1,"toToken":{"address":"0x0000000000000000000000000000000000000000","chainId":1,"symbol":"ETH","decimals":18,"name":"ETH","coinKey":"ETH","logoURI":"https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png","priceUSD":"2679.047666"},"fromAddress":"CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","toAddress":"0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB","destinationGasConsumption":"0"},"tool":"mayanWH","message":"UNKNOWN_ERROR"}]}},{"overallPath":"1151111081099710:Trenches-mayanMCTP-1:ETH","subpaths":{"1151111081099710:Trenches-mayanMCTP-1:ETH":[{"errorType":"NO_QUOTE","code":"AMOUNT_TOO_LOW","action":{"fromChainId":1151111081099710,"fromAmount":"2000000000","fromToken":{"address":"4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump","chainId":1151111081099710,"symbol":"Trenches","decimals":6,"name":"TheTrenches","logoURI":"https://ipfs.io/ipfs/QmPKiNpsC2qHNxNbzJhQiMf1wenyoQQDvw5vK1xDGQj4Nu","priceUSD":"0.00142072"},"toChainId":1,"toToken":{"address":"0x0000000000000000000000000000000000000000","chainId":1,"symbol":"ETH","decimals":18,"name":"ETH","coinKey":"ETH","logoURI":"https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png","priceUSD":"2679.047666"},"fromAddress":"CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","toAddress":"0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB","destinationGasConsumption":"0"},"tool":"mayanMCTP","message":"AMOUNT_TOO_LOW"}]}},{"overallPath":"1151111081099710:Trenches-mayan-1:ETH","subpaths":{"1151111081099710:Trenches-mayan-1:ETH":[{"errorType":"NO_QUOTE","code":"AMOUNT_TOO_LOW","action":{"fromChainId":1151111081099710,"fromAmount":"2000000000","fromToken":{"address":"4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump","chainId":1151111081099710,"symbol":"Trenches","decimals":6,"name":"TheTrenches","logoURI":"https://ipfs.io/ipfs/QmPKiNpsC2qHNxNbzJhQiMf1wenyoQQDvw5vK1xDGQj4Nu","priceUSD":"0.00142072"},"toChainId":1,"toToken":{"address":"0x0000000000000000000000000000000000000000","chainId":1,"symbol":"ETH","decimals":18,"name":"ETH","coinKey":"ETH","logoURI":"https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png","priceUSD":"2679.047666"},"fromAddress":"CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","toAddress":"0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB","destinationGasConsumption":"0"},"tool":"mayan","message":"AMOUNT_TOO_LOW"}]}}]}}
+    at getQuote (file:///C:/Users/User/Desktop/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/EscapeVelocity/print.swap/li.fi%20test%202/test-swap.js:253:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async run (file:///C:/Users/User/Desktop/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/EscapeVelocity/print.swap/li.fi%20test%202/test-swap.js:587:23)
+[2025-06-10T07:06:56.396Z] 
+====================================================================================================
+❌ SWAP FAILED ❌
+====================================================================================================
+
+[2025-06-10T07:13:33.889Z] Starting Li.Fi swap process...
+[2025-06-10T07:13:33.890Z] 
+====================================================================================================
+🔄 NEW SWAP REQUEST 🔄
+====================================================================================================
+
+[2025-06-10T07:13:45.020Z] 
+Amount Format Guide:
+[2025-06-10T07:13:45.020Z] For SOL:
+[2025-06-10T07:13:45.021Z] 1 SOL = 1000000000
+[2025-06-10T07:13:45.022Z] 0.1 SOL = 100000000
+[2025-06-10T07:13:45.022Z] 0.01 SOL = 10000000
+[2025-06-10T07:13:45.023Z] 0.001 SOL = 1000000
+[2025-06-10T07:13:54.173Z] 
+Amount Details:
+[2025-06-10T07:13:54.173Z] Input: 1000000000
+[2025-06-10T07:13:54.175Z] Formatted: 1000000000
+[2025-06-10T07:13:54.175Z] 
+=== Starting Cross-Chain Swap Process ===
+[2025-06-10T07:13:54.176Z] Swap Parameters:
+[2025-06-10T07:13:54.177Z] {
+  "fromChain": "sol",
+  "toChain": "eth",
+  "fromToken": "4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump",
+  "toToken": "eth",
+  "fromAmount": "1000000000",
+  "fromAddress": "CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj",
+  "toAddress": "0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB"
+}
+[2025-06-10T07:13:54.181Z] 
+=== Checking Li.Fi Connection ===
+[2025-06-10T07:13:56.482Z] 
+✅ Connection found:
+[2025-06-10T07:13:56.483Z] From Chain ID: 1151111081099710
+[2025-06-10T07:13:56.484Z] To Chain ID: 1
+[2025-06-10T07:13:56.485Z] 
+From Token Details:
+[2025-06-10T07:13:56.486Z] Symbol: Trenches
+[2025-06-10T07:13:56.487Z] Name: TheTrenches
+[2025-06-10T07:13:56.488Z] Decimals: 6
+[2025-06-10T07:13:56.489Z] Price USD: $0.00
+[2025-06-10T07:13:56.490Z] 
+To Token Details:
+[2025-06-10T07:13:56.491Z] Symbol: ETH
+[2025-06-10T07:13:56.492Z] Name: ETH
+[2025-06-10T07:13:56.492Z] Decimals: 18
+[2025-06-10T07:13:56.493Z] Price USD: $2674.68
+[2025-06-10T07:13:56.494Z] 
+=== Requesting Li.Fi Quote ===
+[2025-06-10T07:13:56.495Z] Using direct bridge preference
+[2025-06-10T07:13:59.628Z] 
+=== Li.Fi Quote Details ===
+[2025-06-10T07:13:59.631Z] 
+1. Pre-Execution Quote:
+[2025-06-10T07:13:59.633Z] From: 1000.000000 Trenches
+[2025-06-10T07:13:59.635Z] To: 0.000448006534526720 ETH
+[2025-06-10T07:13:59.636Z] Rate: 1 Trenches = 0.000000 ETH
+[2025-06-10T07:13:59.637Z] 
+USD Values:
+[2025-06-10T07:13:59.638Z] From: $1.42
+[2025-06-10T07:13:59.639Z] To: $1.20
+[2025-06-10T07:13:59.639Z] 
+2. Estimated Fees:
+[2025-06-10T07:13:59.640Z] Gas: 0.000086000 SOL ($0.01)
+[2025-06-10T07:13:59.641Z] Fee: 0.145963 USDC ($0.15)
+[2025-06-10T07:13:59.641Z] Fee: 0.063111 USDC ($0.06)
+[2025-06-10T07:13:59.642Z] 
+Swap Details:
+[2025-06-10T07:13:59.643Z] DEX: Relay
+[2025-06-10T07:13:59.643Z] Slippage: 0.50%
+[2025-06-10T07:13:59.644Z] Minimum Received: 0.000445777646295240 ETH
+[2025-06-10T07:13:59.644Z] 
+Transaction Request Details:
+[2025-06-10T07:13:59.645Z] Has serializedTransaction: false
+[2025-06-10T07:13:59.645Z] Has instructions: false
+[2025-06-10T07:13:59.646Z] Number of instructions: 0
+[2025-06-10T07:13:59.647Z] 
+==================================================
+[2025-06-10T07:14:10.365Z] 
+=== Executing Swap Transaction ===
+[2025-06-10T07:14:10.365Z] 
+Getting recent blockhash...
+[2025-06-10T07:14:20.516Z] 
+❌ Error executing swap: failed to get recent blockhash: TypeError: fetch failed
+[2025-06-10T07:14:20.522Z] 
+Stack trace:
+[2025-06-10T07:14:20.523Z] Error: failed to get recent blockhash: TypeError: fetch failed
+    at Connection.getLatestBlockhash (C:\Users\User\Desktop\Работа\EscapeVelocity\print.swap\li.fi test 2\node_modules\@solana\web3.js\lib\index.cjs.js:7236:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeSwap (file:///C:/Users/User/Desktop/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/EscapeVelocity/print.swap/li.fi%20test%202/test-swap.js:336:31)
+    at async run (file:///C:/Users/User/Desktop/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/EscapeVelocity/print.swap/li.fi%20test%202/test-swap.js:621:27)
+[2025-06-10T07:14:20.526Z] 
+❌ Error in run: failed to get recent blockhash: TypeError: fetch failed
+[2025-06-10T07:14:20.526Z] 
+Stack trace:
+[2025-06-10T07:14:20.527Z] Error: failed to get recent blockhash: TypeError: fetch failed
+    at Connection.getLatestBlockhash (C:\Users\User\Desktop\Работа\EscapeVelocity\print.swap\li.fi test 2\node_modules\@solana\web3.js\lib\index.cjs.js:7236:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeSwap (file:///C:/Users/User/Desktop/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/EscapeVelocity/print.swap/li.fi%20test%202/test-swap.js:336:31)
+    at async run (file:///C:/Users/User/Desktop/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/EscapeVelocity/print.swap/li.fi%20test%202/test-swap.js:621:27)
+[2025-06-10T07:14:20.529Z] 
+====================================================================================================
+❌ SWAP FAILED ❌
+====================================================================================================
+
+[2025-06-10T07:15:56.952Z] Starting Li.Fi swap process...
+[2025-06-10T07:15:56.954Z] 
+====================================================================================================
+🔄 NEW SWAP REQUEST 🔄
+====================================================================================================
+
+[2025-06-10T07:16:07.717Z] 
+Amount Format Guide:
+[2025-06-10T07:16:07.718Z] For SOL:
+[2025-06-10T07:16:07.718Z] 1 SOL = 1000000000
+[2025-06-10T07:16:07.719Z] 0.1 SOL = 100000000
+[2025-06-10T07:16:07.720Z] 0.01 SOL = 10000000
+[2025-06-10T07:16:07.720Z] 0.001 SOL = 1000000
+[2025-06-10T07:16:14.125Z] 
+Amount Details:
+[2025-06-10T07:16:14.126Z] Input: 1000000000
+[2025-06-10T07:16:14.127Z] Formatted: 1000000000
+[2025-06-10T07:16:14.128Z] 
+=== Starting Cross-Chain Swap Process ===
+[2025-06-10T07:16:14.129Z] Swap Parameters:
+[2025-06-10T07:16:14.130Z] {
+  "fromChain": "sol",
+  "toChain": "eth",
+  "fromToken": "CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj",
+  "toToken": "eth",
+  "fromAmount": "1000000000",
+  "fromAddress": "CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj",
+  "toAddress": "0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB"
+}
+[2025-06-10T07:16:14.132Z] 
+=== Checking Li.Fi Connection ===
+[2025-06-10T07:16:16.092Z] 
+❌ Error checking connection: HTTP error! status: 404
+Details: {"message":"Could not find token 1151111081099710-CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","code":1003}
+[2025-06-10T07:16:16.093Z] 
+⚠️ No connection found between tokens
+[2025-06-10T07:16:16.094Z] Please verify token addresses and try again
+[2025-06-10T07:16:28.761Z] Starting Li.Fi swap process...
+[2025-06-10T07:16:28.763Z] 
+====================================================================================================
+🔄 NEW SWAP REQUEST 🔄
+====================================================================================================
+
+[2025-06-10T07:16:39.084Z] 
+Amount Format Guide:
+[2025-06-10T07:16:39.085Z] For SOL:
+[2025-06-10T07:16:39.086Z] 1 SOL = 1000000000
+[2025-06-10T07:16:39.087Z] 0.1 SOL = 100000000
+[2025-06-10T07:16:39.088Z] 0.01 SOL = 10000000
+[2025-06-10T07:16:39.088Z] 0.001 SOL = 1000000
+[2025-06-10T07:16:53.644Z] 
+Amount Details:
+[2025-06-10T07:16:53.645Z] Input: 1000000000
+[2025-06-10T07:16:53.645Z] Formatted: 1000000000
+[2025-06-10T07:16:53.646Z] 
+=== Starting Cross-Chain Swap Process ===
+[2025-06-10T07:16:53.647Z] Swap Parameters:
+[2025-06-10T07:16:53.647Z] {
+  "fromChain": "sol",
+  "toChain": "eth",
+  "fromToken": "4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump",
+  "toToken": "eth",
+  "fromAmount": "1000000000",
+  "fromAddress": "CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj",
+  "toAddress": "0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB"
+}
+[2025-06-10T07:16:53.649Z] 
+=== Checking Li.Fi Connection ===
+[2025-06-10T07:16:54.245Z] 
+✅ Connection found:
+[2025-06-10T07:16:54.246Z] From Chain ID: 1151111081099710
+[2025-06-10T07:16:54.247Z] To Chain ID: 1
+[2025-06-10T07:16:54.254Z] 
+From Token Details:
+[2025-06-10T07:16:54.255Z] Symbol: Trenches
+[2025-06-10T07:16:54.256Z] Name: TheTrenches
+[2025-06-10T07:16:54.256Z] Decimals: 6
+[2025-06-10T07:16:54.257Z] Price USD: $0.00
+[2025-06-10T07:16:54.258Z] 
+To Token Details:
+[2025-06-10T07:16:54.259Z] Symbol: ETH
+[2025-06-10T07:16:54.260Z] Name: ETH
+[2025-06-10T07:16:54.261Z] Decimals: 18
+[2025-06-10T07:16:54.261Z] Price USD: $2674.68
+[2025-06-10T07:16:54.262Z] 
+=== Requesting Li.Fi Quote ===
+[2025-06-10T07:16:54.263Z] Using direct bridge preference
+[2025-06-10T07:16:57.063Z] 
+⚠️ No available quotes
+[2025-06-10T07:16:57.064Z] 
+Filtered out paths:
+[2025-06-10T07:16:57.065Z] - Multi-step transactions are not supported for SVM chains now.
+[2025-06-10T07:16:57.066Z] - Multi-step transactions are not supported for SVM chains now.
+[2025-06-10T07:16:57.066Z] - Multi-step transactions are not supported for SVM chains now.
+[2025-06-10T07:16:57.067Z] - Multi-step transactions are not supported for SVM chains now.
+[2025-06-10T07:16:57.068Z] - Multi-step transactions are not supported for SVM chains now.
+[2025-06-10T07:16:57.068Z] - Multi-step transactions are not supported for SVM chains now.
+[2025-06-10T07:16:57.069Z] - Multi-step transactions are not supported for SVM chains now.
+[2025-06-10T07:16:57.069Z] - Multi-step transactions are not supported for SVM chains now.
+[2025-06-10T07:16:57.070Z] - Multi-step transactions are not supported for SVM chains now.
+[2025-06-10T07:16:57.071Z] - Multi-step transactions are not supported for SVM chains now.
+[2025-06-10T07:16:57.071Z] - Multi-step transactions are not supported for SVM chains now.
+[2025-06-10T07:16:57.072Z] - Multi-step transactions are not supported for SVM chains now.
+[2025-06-10T07:16:57.073Z] - Multi-step transactions are not supported for SVM chains now.
+[2025-06-10T07:16:57.073Z] - Multi-step transactions are not supported for SVM chains now.
+[2025-06-10T07:16:57.074Z] 
+Failed paths:
+[2025-06-10T07:16:57.074Z] - UNKNOWN_ERROR
+[2025-06-10T07:16:57.075Z] - AMOUNT_TOO_LOW
+[2025-06-10T07:16:57.075Z] - AMOUNT_TOO_LOW
+[2025-06-10T07:16:57.076Z] 
+❌ Error fetching quote: HTTP error! status: 404
+Details: {"message":"No available quotes for the requested transfer","code":1002,"errors":{"filteredOut":[{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-allbridge-1:USDC-1:USDC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDT-1151111081099710:USDT-allbridge-1:USDC-1:USDC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-allbridge-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDT-1151111081099710:USDT-allbridge-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches-mayanWH-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches-mayanWH-1:WBTC-1:WBTC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:FLIP-1:FLIP~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:USDC-1:USDC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:FLIP-1:FLIP~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:USDC-1:USDC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."}],"failed":[{"overallPath":"1151111081099710:Trenches-mayanWH-1:ETH","subpaths":{"1151111081099710:Trenches-mayanWH-1:ETH":[{"errorType":"NO_QUOTE","code":"UNKNOWN_ERROR","action":{"fromChainId":1151111081099710,"fromAmount":"1000000000","fromToken":{"address":"4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump","chainId":1151111081099710,"symbol":"Trenches","decimals":6,"name":"TheTrenches","logoURI":"https://ipfs.io/ipfs/QmPKiNpsC2qHNxNbzJhQiMf1wenyoQQDvw5vK1xDGQj4Nu","priceUSD":"0.00142033"},"toChainId":1,"toToken":{"address":"0x0000000000000000000000000000000000000000","chainId":1,"symbol":"ETH","decimals":18,"name":"ETH","coinKey":"ETH","logoURI":"https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png","priceUSD":"2674.68076223"},"fromAddress":"CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","toAddress":"0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB","destinationGasConsumption":"0"},"tool":"mayanWH","message":"UNKNOWN_ERROR"}]}},{"overallPath":"1151111081099710:Trenches-mayanMCTP-1:ETH","subpaths":{"1151111081099710:Trenches-mayanMCTP-1:ETH":[{"errorType":"NO_QUOTE","code":"AMOUNT_TOO_LOW","action":{"fromChainId":1151111081099710,"fromAmount":"1000000000","fromToken":{"address":"4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump","chainId":1151111081099710,"symbol":"Trenches","decimals":6,"name":"TheTrenches","logoURI":"https://ipfs.io/ipfs/QmPKiNpsC2qHNxNbzJhQiMf1wenyoQQDvw5vK1xDGQj4Nu","priceUSD":"0.00142033"},"toChainId":1,"toToken":{"address":"0x0000000000000000000000000000000000000000","chainId":1,"symbol":"ETH","decimals":18,"name":"ETH","coinKey":"ETH","logoURI":"https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png","priceUSD":"2674.68076223"},"fromAddress":"CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","toAddress":"0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB","destinationGasConsumption":"0"},"tool":"mayanMCTP","message":"AMOUNT_TOO_LOW"}]}},{"overallPath":"1151111081099710:Trenches-mayan-1:ETH","subpaths":{"1151111081099710:Trenches-mayan-1:ETH":[{"errorType":"NO_QUOTE","code":"AMOUNT_TOO_LOW","action":{"fromChainId":1151111081099710,"fromAmount":"1000000000","fromToken":{"address":"4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump","chainId":1151111081099710,"symbol":"Trenches","decimals":6,"name":"TheTrenches","logoURI":"https://ipfs.io/ipfs/QmPKiNpsC2qHNxNbzJhQiMf1wenyoQQDvw5vK1xDGQj4Nu","priceUSD":"0.00142033"},"toChainId":1,"toToken":{"address":"0x0000000000000000000000000000000000000000","chainId":1,"symbol":"ETH","decimals":18,"name":"ETH","coinKey":"ETH","logoURI":"https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png","priceUSD":"2674.68076223"},"fromAddress":"CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","toAddress":"0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB","destinationGasConsumption":"0"},"tool":"mayan","message":"AMOUNT_TOO_LOW"}]}}]}}
+[2025-06-10T07:16:57.080Z] 
+Failed Quote Parameters:
+[2025-06-10T07:16:57.081Z] From Chain: sol
+[2025-06-10T07:16:57.081Z] To Chain: eth
+[2025-06-10T07:16:57.082Z] From Token: 4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump
+[2025-06-10T07:16:57.082Z] To Token: eth
+[2025-06-10T07:16:57.083Z] Amount: 1000000000
+[2025-06-10T07:16:57.083Z] From Address: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj
+[2025-06-10T07:16:57.084Z] To Address: 0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB
+[2025-06-10T07:16:57.085Z] 
+❌ Error in run: HTTP error! status: 404
+Details: {"message":"No available quotes for the requested transfer","code":1002,"errors":{"filteredOut":[{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-allbridge-1:USDC-1:USDC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDT-1151111081099710:USDT-allbridge-1:USDC-1:USDC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-allbridge-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDT-1151111081099710:USDT-allbridge-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches-mayanWH-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches-mayanWH-1:WBTC-1:WBTC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:FLIP-1:FLIP~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:USDC-1:USDC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:FLIP-1:FLIP~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:USDC-1:USDC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."}],"failed":[{"overallPath":"1151111081099710:Trenches-mayanWH-1:ETH","subpaths":{"1151111081099710:Trenches-mayanWH-1:ETH":[{"errorType":"NO_QUOTE","code":"UNKNOWN_ERROR","action":{"fromChainId":1151111081099710,"fromAmount":"1000000000","fromToken":{"address":"4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump","chainId":1151111081099710,"symbol":"Trenches","decimals":6,"name":"TheTrenches","logoURI":"https://ipfs.io/ipfs/QmPKiNpsC2qHNxNbzJhQiMf1wenyoQQDvw5vK1xDGQj4Nu","priceUSD":"0.00142033"},"toChainId":1,"toToken":{"address":"0x0000000000000000000000000000000000000000","chainId":1,"symbol":"ETH","decimals":18,"name":"ETH","coinKey":"ETH","logoURI":"https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png","priceUSD":"2674.68076223"},"fromAddress":"CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","toAddress":"0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB","destinationGasConsumption":"0"},"tool":"mayanWH","message":"UNKNOWN_ERROR"}]}},{"overallPath":"1151111081099710:Trenches-mayanMCTP-1:ETH","subpaths":{"1151111081099710:Trenches-mayanMCTP-1:ETH":[{"errorType":"NO_QUOTE","code":"AMOUNT_TOO_LOW","action":{"fromChainId":1151111081099710,"fromAmount":"1000000000","fromToken":{"address":"4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump","chainId":1151111081099710,"symbol":"Trenches","decimals":6,"name":"TheTrenches","logoURI":"https://ipfs.io/ipfs/QmPKiNpsC2qHNxNbzJhQiMf1wenyoQQDvw5vK1xDGQj4Nu","priceUSD":"0.00142033"},"toChainId":1,"toToken":{"address":"0x0000000000000000000000000000000000000000","chainId":1,"symbol":"ETH","decimals":18,"name":"ETH","coinKey":"ETH","logoURI":"https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png","priceUSD":"2674.68076223"},"fromAddress":"CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","toAddress":"0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB","destinationGasConsumption":"0"},"tool":"mayanMCTP","message":"AMOUNT_TOO_LOW"}]}},{"overallPath":"1151111081099710:Trenches-mayan-1:ETH","subpaths":{"1151111081099710:Trenches-mayan-1:ETH":[{"errorType":"NO_QUOTE","code":"AMOUNT_TOO_LOW","action":{"fromChainId":1151111081099710,"fromAmount":"1000000000","fromToken":{"address":"4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump","chainId":1151111081099710,"symbol":"Trenches","decimals":6,"name":"TheTrenches","logoURI":"https://ipfs.io/ipfs/QmPKiNpsC2qHNxNbzJhQiMf1wenyoQQDvw5vK1xDGQj4Nu","priceUSD":"0.00142033"},"toChainId":1,"toToken":{"address":"0x0000000000000000000000000000000000000000","chainId":1,"symbol":"ETH","decimals":18,"name":"ETH","coinKey":"ETH","logoURI":"https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png","priceUSD":"2674.68076223"},"fromAddress":"CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","toAddress":"0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB","destinationGasConsumption":"0"},"tool":"mayan","message":"AMOUNT_TOO_LOW"}]}}]}}
+[2025-06-10T07:16:57.092Z] 
+Stack trace:
+[2025-06-10T07:16:57.093Z] Error: HTTP error! status: 404
+Details: {"message":"No available quotes for the requested transfer","code":1002,"errors":{"filteredOut":[{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-allbridge-1:USDC-1:USDC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDT-1151111081099710:USDT-allbridge-1:USDC-1:USDC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-allbridge-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDT-1151111081099710:USDT-allbridge-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches-mayanWH-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches-mayanWH-1:WBTC-1:WBTC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:FLIP-1:FLIP~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:USDC-1:USDC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:FLIP-1:FLIP~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:USDC-1:USDC~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Trenches~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:USDT-1:USDT~1:ETH","reason":"Multi-step transactions are not supported for SVM chains now."}],"failed":[{"overallPath":"1151111081099710:Trenches-mayanWH-1:ETH","subpaths":{"1151111081099710:Trenches-mayanWH-1:ETH":[{"errorType":"NO_QUOTE","code":"UNKNOWN_ERROR","action":{"fromChainId":1151111081099710,"fromAmount":"1000000000","fromToken":{"address":"4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump","chainId":1151111081099710,"symbol":"Trenches","decimals":6,"name":"TheTrenches","logoURI":"https://ipfs.io/ipfs/QmPKiNpsC2qHNxNbzJhQiMf1wenyoQQDvw5vK1xDGQj4Nu","priceUSD":"0.00142033"},"toChainId":1,"toToken":{"address":"0x0000000000000000000000000000000000000000","chainId":1,"symbol":"ETH","decimals":18,"name":"ETH","coinKey":"ETH","logoURI":"https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png","priceUSD":"2674.68076223"},"fromAddress":"CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","toAddress":"0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB","destinationGasConsumption":"0"},"tool":"mayanWH","message":"UNKNOWN_ERROR"}]}},{"overallPath":"1151111081099710:Trenches-mayanMCTP-1:ETH","subpaths":{"1151111081099710:Trenches-mayanMCTP-1:ETH":[{"errorType":"NO_QUOTE","code":"AMOUNT_TOO_LOW","action":{"fromChainId":1151111081099710,"fromAmount":"1000000000","fromToken":{"address":"4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump","chainId":1151111081099710,"symbol":"Trenches","decimals":6,"name":"TheTrenches","logoURI":"https://ipfs.io/ipfs/QmPKiNpsC2qHNxNbzJhQiMf1wenyoQQDvw5vK1xDGQj4Nu","priceUSD":"0.00142033"},"toChainId":1,"toToken":{"address":"0x0000000000000000000000000000000000000000","chainId":1,"symbol":"ETH","decimals":18,"name":"ETH","coinKey":"ETH","logoURI":"https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png","priceUSD":"2674.68076223"},"fromAddress":"CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","toAddress":"0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB","destinationGasConsumption":"0"},"tool":"mayanMCTP","message":"AMOUNT_TOO_LOW"}]}},{"overallPath":"1151111081099710:Trenches-mayan-1:ETH","subpaths":{"1151111081099710:Trenches-mayan-1:ETH":[{"errorType":"NO_QUOTE","code":"AMOUNT_TOO_LOW","action":{"fromChainId":1151111081099710,"fromAmount":"1000000000","fromToken":{"address":"4z7secBe41i5Svtotp4k2FsjMVV6xykEVnrD4kdFpump","chainId":1151111081099710,"symbol":"Trenches","decimals":6,"name":"TheTrenches","logoURI":"https://ipfs.io/ipfs/QmPKiNpsC2qHNxNbzJhQiMf1wenyoQQDvw5vK1xDGQj4Nu","priceUSD":"0.00142033"},"toChainId":1,"toToken":{"address":"0x0000000000000000000000000000000000000000","chainId":1,"symbol":"ETH","decimals":18,"name":"ETH","coinKey":"ETH","logoURI":"https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png","priceUSD":"2674.68076223"},"fromAddress":"CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","toAddress":"0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB","destinationGasConsumption":"0"},"tool":"mayan","message":"AMOUNT_TOO_LOW"}]}}]}}
+    at getQuote (file:///C:/Users/User/Desktop/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/EscapeVelocity/print.swap/li.fi%20test%202/test-swap.js:269:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async run (file:///C:/Users/User/Desktop/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/EscapeVelocity/print.swap/li.fi%20test%202/test-swap.js:643:23)
+[2025-06-10T07:16:57.101Z] 
+====================================================================================================
+❌ SWAP FAILED ❌
+====================================================================================================
+
+[2025-06-10T07:20:34.372Z] Starting Li.Fi swap process...
+[2025-06-10T07:20:34.373Z] 
+====================================================================================================
+🔄 NEW SWAP REQUEST 🔄
+====================================================================================================
+
+[2025-06-10T07:20:44.899Z] 
+Amount Format Guide:
+[2025-06-10T07:20:44.900Z] For SOL:
+[2025-06-10T07:20:44.901Z] 1 SOL = 1000000000
+[2025-06-10T07:20:44.901Z] 0.1 SOL = 100000000
+[2025-06-10T07:20:44.902Z] 0.01 SOL = 10000000
+[2025-06-10T07:20:44.903Z] 0.001 SOL = 1000000
+[2025-06-10T07:20:50.480Z] Starting Li.Fi swap process...
+[2025-06-10T07:20:50.481Z] 
+====================================================================================================
+🔄 NEW SWAP REQUEST 🔄
+====================================================================================================
+
+[2025-06-10T07:20:56.738Z] 
+Amount Format Guide:
+[2025-06-10T07:20:56.739Z] For SOL:
+[2025-06-10T07:20:56.740Z] 1 SOL = 1000000000
+[2025-06-10T07:20:56.741Z] 0.1 SOL = 100000000
+[2025-06-10T07:20:56.742Z] 0.01 SOL = 10000000
+[2025-06-10T07:20:56.743Z] 0.001 SOL = 1000000
+[2025-06-10T07:21:23.802Z] 
+Amount Details:
+[2025-06-10T07:21:23.804Z] Input: 10000000
+[2025-06-10T07:21:23.804Z] Formatted: 10000000
+[2025-06-10T07:21:23.805Z] 
+=== Starting Cross-Chain Swap Process ===
+[2025-06-10T07:21:23.808Z] Swap Parameters:
+[2025-06-10T07:21:23.809Z] {
+  "fromChain": "sol",
+  "toChain": "sol",
+  "fromToken": "So11111111111111111111111111111111111111112",
+  "toToken": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+  "fromAmount": "10000000",
+  "fromAddress": "CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj",
+  "toAddress": "CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj"
+}
+[2025-06-10T07:21:23.813Z] 
+=== Checking Li.Fi Connection ===
+[2025-06-10T07:21:25.056Z] 
+✅ Connection found:
+[2025-06-10T07:21:25.057Z] From Chain ID: 1151111081099710
+[2025-06-10T07:21:25.058Z] To Chain ID: 1151111081099710
+[2025-06-10T07:21:25.059Z] 
+From Token Details:
+[2025-06-10T07:21:25.059Z] Symbol: wSOL
+[2025-06-10T07:21:25.060Z] Name: wSOL
+[2025-06-10T07:21:25.061Z] Decimals: 9
+[2025-06-10T07:21:25.062Z] Price USD: $158.27
+[2025-06-10T07:21:25.062Z] 
+To Token Details:
+[2025-06-10T07:21:25.063Z] Symbol: Fartcoin
+[2025-06-10T07:21:25.064Z] Name: Fartcoin
+[2025-06-10T07:21:25.064Z] Decimals: 6
+[2025-06-10T07:21:25.065Z] Price USD: $1.25
+[2025-06-10T07:21:25.066Z] 
+=== Requesting Li.Fi Quote ===
+[2025-06-10T07:21:25.067Z] Using direct bridge preference
+[2025-06-10T07:21:29.918Z] 
+=== Li.Fi Quote Details ===
+[2025-06-10T07:21:29.918Z] 
+1. Pre-Execution Quote:
+[2025-06-10T07:21:29.919Z] From: 0.010000000 wSOL
+[2025-06-10T07:21:29.920Z] To: 1.267367 Fartcoin
+[2025-06-10T07:21:29.921Z] Rate: 1 wSOL = 126.736700 Fartcoin
+[2025-06-10T07:21:29.921Z] 
+USD Values:
+[2025-06-10T07:21:29.922Z] From: $1.58
+[2025-06-10T07:21:29.922Z] To: $1.58
+[2025-06-10T07:21:29.923Z] 
+2. Estimated Fees:
+[2025-06-10T07:21:29.924Z] Gas: 0.000037689 SOL ($0.01)
+[2025-06-10T07:21:29.924Z] Fee: 0.002039280 SOL ($0.32)
+[2025-06-10T07:21:29.925Z] 
+Swap Details:
+[2025-06-10T07:21:29.926Z] DEX: Jupiter
+[2025-06-10T07:21:29.926Z] Slippage: 0.50%
+[2025-06-10T07:21:29.926Z] Minimum Received: 1.261030 Fartcoin
+[2025-06-10T07:21:29.927Z] 
+Transaction Request Details:
+[2025-06-10T07:21:29.927Z] Has serializedTransaction: false
+[2025-06-10T07:21:29.928Z] Has instructions: false
+[2025-06-10T07:21:29.929Z] Number of instructions: 0
+[2025-06-10T07:21:29.929Z] 
+==================================================
+[2025-06-10T07:21:37.754Z] 
+=== Executing Swap Transaction ===
+[2025-06-10T07:21:38.492Z] ❌ Solana connection error: 401 Unauthorized: {"message":"Usage without a token is no longer available. For future use, register and receive a free API token https://app.extrnode.com"}
+
+[2025-06-10T07:21:38.493Z] 
+❌ Error executing swap: Solana connection is not healthy
+[2025-06-10T07:21:38.494Z] 
+Stack trace:
+[2025-06-10T07:21:38.495Z] Error: Solana connection is not healthy
+    at executeSwap (file:///C:/Users/User/Desktop/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/EscapeVelocity/print.swap/li.fi%20test%202/test-swap.js:350:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async run (file:///C:/Users/User/Desktop/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/EscapeVelocity/print.swap/li.fi%20test%202/test-swap.js:677:27)
+[2025-06-10T07:21:38.496Z] 
+❌ Error in run: Solana connection is not healthy
+[2025-06-10T07:21:38.496Z] 
+Stack trace:
+[2025-06-10T07:21:38.497Z] Error: Solana connection is not healthy
+    at executeSwap (file:///C:/Users/User/Desktop/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/EscapeVelocity/print.swap/li.fi%20test%202/test-swap.js:350:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async run (file:///C:/Users/User/Desktop/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/EscapeVelocity/print.swap/li.fi%20test%202/test-swap.js:677:27)
+[2025-06-10T07:21:38.498Z] 
+====================================================================================================
+❌ SWAP FAILED ❌
+====================================================================================================
+
+[2025-06-10T07:22:30.759Z] Starting Li.Fi swap process...
+[2025-06-10T07:22:30.761Z] 
+====================================================================================================
+🔄 NEW SWAP REQUEST 🔄
+====================================================================================================
+
+[2025-06-10T07:22:37.602Z] 
+Amount Format Guide:
+[2025-06-10T07:22:37.603Z] For SOL:
+[2025-06-10T07:22:37.604Z] 1 SOL = 1000000000
+[2025-06-10T07:22:37.604Z] 0.1 SOL = 100000000
+[2025-06-10T07:22:37.605Z] 0.01 SOL = 10000000
+[2025-06-10T07:22:37.606Z] 0.001 SOL = 1000000
+[2025-06-10T07:22:45.154Z] 
+Amount Details:
+[2025-06-10T07:22:45.155Z] Input: 10000000
+[2025-06-10T07:22:45.156Z] Formatted: 10000000
+[2025-06-10T07:22:45.157Z] 
+=== Starting Cross-Chain Swap Process ===
+[2025-06-10T07:22:45.158Z] Swap Parameters:
+[2025-06-10T07:22:45.158Z] {
+  "fromChain": "sol",
+  "toChain": "sol",
+  "fromToken": "sol",
+  "toToken": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+  "fromAmount": "10000000",
+  "fromAddress": "CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj",
+  "toAddress": "CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj"
+}
+[2025-06-10T07:22:45.160Z] 
+=== Checking Li.Fi Connection ===
+[2025-06-10T07:22:46.044Z] 
+✅ Connection found:
+[2025-06-10T07:22:46.045Z] From Chain ID: 1151111081099710
+[2025-06-10T07:22:46.045Z] To Chain ID: 1151111081099710
+[2025-06-10T07:22:46.046Z] 
+From Token Details:
+[2025-06-10T07:22:46.047Z] Symbol: SOL
+[2025-06-10T07:22:46.047Z] Name: SOL
+[2025-06-10T07:22:46.048Z] Decimals: 9
+[2025-06-10T07:22:46.049Z] Price USD: $158.27
+[2025-06-10T07:22:46.049Z] 
+To Token Details:
+[2025-06-10T07:22:46.050Z] Symbol: Fartcoin
+[2025-06-10T07:22:46.051Z] Name: Fartcoin
+[2025-06-10T07:22:46.051Z] Decimals: 6
+[2025-06-10T07:22:46.052Z] Price USD: $1.25
+[2025-06-10T07:22:46.053Z] 
+=== Requesting Li.Fi Quote ===
+[2025-06-10T07:22:46.053Z] Using direct bridge preference
+[2025-06-10T07:22:48.816Z] 
+=== Li.Fi Quote Details ===
+[2025-06-10T07:22:48.818Z] 
+1. Pre-Execution Quote:
+[2025-06-10T07:22:48.818Z] From: 0.010000000 SOL
+[2025-06-10T07:22:48.819Z] To: 1.268481 Fartcoin
+[2025-06-10T07:22:48.820Z] Rate: 1 SOL = 126.848100 Fartcoin
+[2025-06-10T07:22:48.821Z] 
+USD Values:
+[2025-06-10T07:22:48.821Z] From: $1.58
+[2025-06-10T07:22:48.822Z] To: $1.59
+[2025-06-10T07:22:48.823Z] 
+2. Estimated Fees:
+[2025-06-10T07:22:48.823Z] Gas: 0.000040605 SOL ($0.01)
+[2025-06-10T07:22:48.824Z] Fee: 0.002039280 SOL ($0.32)
+[2025-06-10T07:22:48.825Z] 
+Swap Details:
+[2025-06-10T07:22:48.825Z] DEX: Jupiter
+[2025-06-10T07:22:48.826Z] Slippage: 0.50%
+[2025-06-10T07:22:48.827Z] Minimum Received: 1.262139 Fartcoin
+[2025-06-10T07:22:48.827Z] 
+Transaction Request Details:
+[2025-06-10T07:22:48.828Z] Has serializedTransaction: false
+[2025-06-10T07:22:48.829Z] Has instructions: false
+[2025-06-10T07:22:48.829Z] Number of instructions: 0
+[2025-06-10T07:22:48.830Z] 
+==================================================
+[2025-06-10T07:22:52.691Z] 
+=== Executing Swap Transaction ===
+[2025-06-10T07:22:53.063Z] ✅ Solana connection is healthy
+[2025-06-10T07:22:53.064Z] 
+Getting recent blockhash...
+[2025-06-10T07:22:53.180Z] 
+Sending transaction...
+[2025-06-10T07:22:53.303Z] Transaction sent: 5byhv63zBNtHeeJQg6ckQ4NfspFw9JHFjYiSNySyG5SJRteUfq8fzzDZiRJsp9juzCCqUXhcJKZt4z8K4EKkbDQe
+[2025-06-10T07:22:53.304Z] Waiting for transaction confirmation...
+[2025-06-10T07:22:54.235Z] 
+✅ Transaction completed successfully!
+[2025-06-10T07:22:54.236Z] Transaction signature: 5byhv63zBNtHeeJQg6ckQ4NfspFw9JHFjYiSNySyG5SJRteUfq8fzzDZiRJsp9juzCCqUXhcJKZt4z8K4EKkbDQe
+[2025-06-10T07:22:54.238Z] Solscan link: https://solscan.io/tx/5byhv63zBNtHeeJQg6ckQ4NfspFw9JHFjYiSNySyG5SJRteUfq8fzzDZiRJsp9juzCCqUXhcJKZt4z8K4EKkbDQe
+[2025-06-10T07:22:54.241Z] 
+=== Analyzing Swap Transaction: 5byhv63zBNtHeeJQg6ckQ4NfspFw9JHFjYiSNySyG5SJRteUfq8fzzDZiRJsp9juzCCqUXhcJKZt4z8K4EKkbDQe ===
+[2025-06-10T07:22:54.677Z] 
+Transaction Details:
+[2025-06-10T07:22:54.679Z] Time: 2025-06-10T07:22:52.000Z
+[2025-06-10T07:22:54.680Z] Status: Success
+[2025-06-10T07:22:54.680Z] Network Fee: 0.000040606 SOL
+[2025-06-10T07:22:54.681Z] 
+Swap Details:
+[2025-06-10T07:22:54.682Z] Swapper: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj
+[2025-06-10T07:22:54.682Z] Slippage: 0.5%
+[2025-06-10T07:22:54.683Z] Quoted Output Amount: 1268806
+[2025-06-10T07:22:54.684Z] Slippage Paid: -0.0006829999999999892
+[2025-06-10T07:22:54.684Z] 
+Token Transfers:
+[2025-06-10T07:22:54.685Z] Input: 0.000000000 So11111111111111111111111111111111111111112
+[2025-06-10T07:22:54.686Z] Output: 0.000001 9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump
+[2025-06-10T07:22:54.686Z] Rate: 1 So11111111111111111111111111111111111111112 = 126.948900 9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump
+[2025-06-10T07:22:54.687Z] 
+=== Quote vs Actual Comparison ===
+[2025-06-10T07:22:54.687Z] 
+Input Amount:
+[2025-06-10T07:22:54.688Z] Quote: 0.010000000 SOL
+[2025-06-10T07:22:54.689Z] Actual: 0.000000000 SOL
+[2025-06-10T07:22:54.689Z] 
+Output Amount:
+[2025-06-10T07:22:54.690Z] Quote: 1.268481 Fartcoin
+[2025-06-10T07:22:54.692Z] Actual: 0.000001 Fartcoin
+[2025-06-10T07:22:54.693Z] 
+Rate Comparison:
+[2025-06-10T07:22:54.695Z] Quote Rate: 1 SOL = 0.126848 Fartcoin
+[2025-06-10T07:22:54.697Z] Actual Rate: 1 SOL = 126.948900 Fartcoin
+[2025-06-10T07:22:54.697Z] Difference: 99979.47%
+[2025-06-10T07:22:54.698Z] 
+Transaction Links:
+[2025-06-10T07:22:54.698Z] Solscan: https://solscan.io/tx/5byhv63zBNtHeeJQg6ckQ4NfspFw9JHFjYiSNySyG5SJRteUfq8fzzDZiRJsp9juzCCqUXhcJKZt4z8K4EKkbDQe
+[2025-06-10T07:22:54.699Z] Explorer: https://explorer.solana.com/tx/5byhv63zBNtHeeJQg6ckQ4NfspFw9JHFjYiSNySyG5SJRteUfq8fzzDZiRJsp9juzCCqUXhcJKZt4z8K4EKkbDQe
+[2025-06-10T07:22:54.700Z] 
+====================================================================================================
+[2025-06-10T07:22:54.700Z] ====================================================================================================
+[2025-06-10T07:22:54.701Z] ====================================================================================================
+
+[2025-06-10T07:22:54.701Z] 
+====================================================================================================
+✅ SWAP COMPLETED ✅
+====================================================================================================
+
+[2025-06-10T07:25:12.405Z] Starting Li.Fi swap process...
+[2025-06-10T07:25:12.407Z] 
+====================================================================================================
+🔄 NEW SWAP REQUEST 🔄
+====================================================================================================
+
+[2025-06-10T07:25:32.558Z] 
+Amount Format Guide:
+[2025-06-10T07:25:32.559Z] For SOL:
+[2025-06-10T07:25:32.560Z] 1 SOL = 1000000000
+[2025-06-10T07:25:32.561Z] 0.1 SOL = 100000000
+[2025-06-10T07:25:32.561Z] 0.01 SOL = 10000000
+[2025-06-10T07:25:32.562Z] 0.001 SOL = 1000000
+[2025-06-10T07:25:40.735Z] 
+Amount Details:
+[2025-06-10T07:25:40.736Z] Input: 1000000
+[2025-06-10T07:25:40.736Z] Formatted: 1000000
+[2025-06-10T07:25:40.737Z] 
+=== Starting Cross-Chain Swap Process ===
+[2025-06-10T07:25:40.738Z] Swap Parameters:
+[2025-06-10T07:25:40.738Z] {
+  "fromChain": "sol",
+  "toChain": "eth",
+  "fromToken": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+  "toToken": "eth",
+  "fromAmount": "1000000",
+  "fromAddress": "CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj",
+  "toAddress": "0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB"
+}
+[2025-06-10T07:25:40.741Z] 
+=== Checking Li.Fi Connection ===
+[2025-06-10T07:25:42.017Z] 
+✅ Connection found:
+[2025-06-10T07:25:42.017Z] From Chain ID: 1151111081099710
+[2025-06-10T07:25:42.018Z] To Chain ID: 1
+[2025-06-10T07:25:42.018Z] 
+From Token Details:
+[2025-06-10T07:25:42.019Z] Symbol: Fartcoin
+[2025-06-10T07:25:42.019Z] Name: Fartcoin
+[2025-06-10T07:25:42.020Z] Decimals: 6
+[2025-06-10T07:25:42.020Z] Price USD: $1.25
+[2025-06-10T07:25:42.021Z] 
+To Token Details:
+[2025-06-10T07:25:42.021Z] Symbol: ETH
+[2025-06-10T07:25:42.022Z] Name: ETH
+[2025-06-10T07:25:42.022Z] Decimals: 18
+[2025-06-10T07:25:42.023Z] Price USD: $2674.68
+[2025-06-10T07:25:42.024Z] 
+=== Requesting Li.Fi Quote ===
+[2025-06-10T07:25:42.024Z] Using direct bridge preference
+[2025-06-10T07:25:49.015Z] 
+=== Li.Fi Quote Details ===
+[2025-06-10T07:25:49.016Z] 
+1. Pre-Execution Quote:
+[2025-06-10T07:25:49.016Z] From: 1.000000 Fartcoin
+[2025-06-10T07:25:49.017Z] To: 0.000384706068449330 ETH
+[2025-06-10T07:25:49.018Z] Rate: 1 Fartcoin = 0.000385 ETH
+[2025-06-10T07:25:49.018Z] 
+USD Values:
+[2025-06-10T07:25:49.019Z] From: $1.25
+[2025-06-10T07:25:49.019Z] To: $1.03
+[2025-06-10T07:25:49.020Z] 
+2. Estimated Fees:
+[2025-06-10T07:25:49.021Z] Gas: 0.000086000 SOL ($0.01)
+[2025-06-10T07:25:49.021Z] Fee: 0.144446 USDC ($0.14)
+[2025-06-10T07:25:49.022Z] Fee: 0.064406 USDC ($0.06)
+[2025-06-10T07:25:49.022Z] 
+Swap Details:
+[2025-06-10T07:25:49.023Z] DEX: Relay
+[2025-06-10T07:25:49.023Z] Slippage: 0.50%
+[2025-06-10T07:25:49.024Z] Minimum Received: 0.000382792107909781 ETH
+[2025-06-10T07:25:49.024Z] 
+Transaction Request Details:
+[2025-06-10T07:25:49.025Z] Has serializedTransaction: false
+[2025-06-10T07:25:49.025Z] Has instructions: false
+[2025-06-10T07:25:49.026Z] Number of instructions: 0
+[2025-06-10T07:25:49.026Z] 
+==================================================
+[2025-06-10T07:25:58.655Z] 
+=== Executing Swap Transaction ===
+[2025-06-10T07:25:59.030Z] ✅ Solana connection is healthy
+[2025-06-10T07:25:59.031Z] 
+Getting recent blockhash...
+[2025-06-10T07:25:59.180Z] 
+Sending transaction...
+[2025-06-10T07:25:59.293Z] Transaction sent: 4kU51CkcGugaHpxtQCtU8gBXdanfZkz6eKzQiHV3vUtbmfgvoKNCNxBXygxZQKH1NRsVb6PkpPfJRKoBFKqXma5z
+[2025-06-10T07:25:59.294Z] Waiting for transaction confirmation...
+[2025-06-10T07:26:01.075Z] 
+✅ Transaction completed successfully!
+[2025-06-10T07:26:01.076Z] Transaction signature: 4kU51CkcGugaHpxtQCtU8gBXdanfZkz6eKzQiHV3vUtbmfgvoKNCNxBXygxZQKH1NRsVb6PkpPfJRKoBFKqXma5z
+[2025-06-10T07:26:01.076Z] Solscan link: https://solscan.io/tx/4kU51CkcGugaHpxtQCtU8gBXdanfZkz6eKzQiHV3vUtbmfgvoKNCNxBXygxZQKH1NRsVb6PkpPfJRKoBFKqXma5z
+[2025-06-10T07:26:01.078Z] 
+=== Analyzing Swap Transaction: 4kU51CkcGugaHpxtQCtU8gBXdanfZkz6eKzQiHV3vUtbmfgvoKNCNxBXygxZQKH1NRsVb6PkpPfJRKoBFKqXma5z ===
+[2025-06-10T07:26:01.543Z] 
+Transaction Details:
+[2025-06-10T07:26:01.544Z] Time: 2025-06-10T07:25:59.000Z
+[2025-06-10T07:26:01.544Z] Status: Success
+[2025-06-10T07:26:01.545Z] Network Fee: 0.000029 SOL
+[2025-06-10T07:26:01.546Z] 
+Swap Details:
+[2025-06-10T07:26:01.548Z] Swapper: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj
+[2025-06-10T07:26:01.549Z] Slippage: 0.5%
+[2025-06-10T07:26:01.550Z] Quoted Output Amount: 0.000000000001244973
+[2025-06-10T07:26:01.550Z] Slippage Paid: 0.0015200000000001879
+[2025-06-10T07:26:01.551Z] 
+Transaction Links:
+[2025-06-10T07:26:01.552Z] Solscan: https://solscan.io/tx/4kU51CkcGugaHpxtQCtU8gBXdanfZkz6eKzQiHV3vUtbmfgvoKNCNxBXygxZQKH1NRsVb6PkpPfJRKoBFKqXma5z
+[2025-06-10T07:26:01.552Z] Explorer: https://explorer.solana.com/tx/4kU51CkcGugaHpxtQCtU8gBXdanfZkz6eKzQiHV3vUtbmfgvoKNCNxBXygxZQKH1NRsVb6PkpPfJRKoBFKqXma5z
+[2025-06-10T07:26:01.553Z] 
+====================================================================================================
+[2025-06-10T07:26:01.553Z] ====================================================================================================
+[2025-06-10T07:26:01.554Z] ====================================================================================================
+
+[2025-06-10T07:26:01.555Z] 
+====================================================================================================
+✅ SWAP COMPLETED ✅
+====================================================================================================
+

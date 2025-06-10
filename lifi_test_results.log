@@ -1,0 +1,626 @@
+[2025-06-10T05:11:10.392Z] Starting Li.Fi API tests...
+[2025-06-10T05:11:10.393Z] 
+Testing scenario: Small SOL to USDC
+[2025-06-10T05:11:10.394Z] 
+Requesting quote from Li.Fi...
+[2025-06-10T05:11:11.263Z] 
+=== Li.Fi Quote Details for Small SOL to USDC ===
+[2025-06-10T05:11:11.264Z] 
+1. Pre-Execution Quote:
+[2025-06-10T05:11:11.265Z] From: 0.010000000 wSOL
+[2025-06-10T05:11:11.265Z] To: 1.592396 USDC
+[2025-06-10T05:11:11.266Z] Rate: 1 wSOL = 159.239600 USDC
+[2025-06-10T05:11:11.267Z] 
+USD Values:
+[2025-06-10T05:11:11.267Z] From: $1.59
+[2025-06-10T05:11:11.268Z] To: $1.59
+[2025-06-10T05:11:11.269Z] 
+2. Estimated Fees:
+[2025-06-10T05:11:11.269Z] Gas: 0.000027758 SOL ($0.00)
+[2025-06-10T05:11:11.270Z] Fee: 0.002039280 SOL ($0.32)
+[2025-06-10T05:11:11.272Z] 
+Swap Details:
+[2025-06-10T05:11:11.274Z] DEX: Jupiter
+[2025-06-10T05:11:11.274Z] Slippage: 0.50%
+[2025-06-10T05:11:11.275Z] Minimum Received: 1.584434 USDC
+[2025-06-10T05:11:11.276Z] 
+==================================================
+
+[2025-06-10T05:11:13.290Z] 
+Testing scenario: Medium SOL to USDC
+[2025-06-10T05:11:13.294Z] 
+Requesting quote from Li.Fi...
+[2025-06-10T05:11:14.277Z] 
+=== Li.Fi Quote Details for Medium SOL to USDC ===
+[2025-06-10T05:11:14.278Z] 
+1. Pre-Execution Quote:
+[2025-06-10T05:11:14.279Z] From: 0.100000000 wSOL
+[2025-06-10T05:11:14.279Z] To: 15.923786 USDC
+[2025-06-10T05:11:14.279Z] Rate: 1 wSOL = 159.237860 USDC
+[2025-06-10T05:11:14.280Z] 
+USD Values:
+[2025-06-10T05:11:14.280Z] From: $15.94
+[2025-06-10T05:11:14.281Z] To: $15.92
+[2025-06-10T05:11:14.281Z] 
+2. Estimated Fees:
+[2025-06-10T05:11:14.281Z] Gas: 0.000027765 SOL ($0.00)
+[2025-06-10T05:11:14.282Z] Fee: 0.002039280 SOL ($0.32)
+[2025-06-10T05:11:14.282Z] 
+Swap Details:
+[2025-06-10T05:11:14.283Z] DEX: Jupiter
+[2025-06-10T05:11:14.283Z] Slippage: 0.50%
+[2025-06-10T05:11:14.284Z] Minimum Received: 15.844167 USDC
+[2025-06-10T05:11:14.284Z] 
+==================================================
+
+[2025-06-10T05:11:16.286Z] 
+Testing scenario: Large SOL to USDC
+[2025-06-10T05:11:16.287Z] 
+Requesting quote from Li.Fi...
+[2025-06-10T05:11:17.731Z] 
+=== Li.Fi Quote Details for Large SOL to USDC ===
+[2025-06-10T05:11:17.732Z] 
+1. Pre-Execution Quote:
+[2025-06-10T05:11:17.733Z] From: 1.000000000 wSOL
+[2025-06-10T05:11:17.734Z] To: 159.305716 USDC
+[2025-06-10T05:11:17.734Z] Rate: 1 wSOL = 159.305716 USDC
+[2025-06-10T05:11:17.735Z] 
+USD Values:
+[2025-06-10T05:11:17.736Z] From: $159.38
+[2025-06-10T05:11:17.737Z] To: $159.27
+[2025-06-10T05:11:17.737Z] 
+2. Estimated Fees:
+[2025-06-10T05:11:17.738Z] Gas: 0.000023124 SOL ($0.00)
+[2025-06-10T05:11:17.739Z] Fee: 0.002039280 SOL ($0.32)
+[2025-06-10T05:11:17.739Z] 
+Swap Details:
+[2025-06-10T05:11:17.740Z] DEX: Jupiter
+[2025-06-10T05:11:17.741Z] Slippage: 0.50%
+[2025-06-10T05:11:17.742Z] Minimum Received: 158.509187 USDC
+[2025-06-10T05:11:17.742Z] 
+==================================================
+
+[2025-06-10T05:11:19.744Z] 
+Testing scenario: Small SOL to USDT
+[2025-06-10T05:11:19.745Z] 
+Requesting quote from Li.Fi...
+[2025-06-10T05:11:20.665Z] 
+=== Li.Fi Quote Details for Small SOL to USDT ===
+[2025-06-10T05:11:20.665Z] 
+1. Pre-Execution Quote:
+[2025-06-10T05:11:20.666Z] From: 0.010000000 wSOL
+[2025-06-10T05:11:20.666Z] To: 1.591894 USDT
+[2025-06-10T05:11:20.667Z] Rate: 1 wSOL = 159.189400 USDT
+[2025-06-10T05:11:20.667Z] 
+USD Values:
+[2025-06-10T05:11:20.668Z] From: $1.59
+[2025-06-10T05:11:20.668Z] To: $1.59
+[2025-06-10T05:11:20.669Z] 
+2. Estimated Fees:
+[2025-06-10T05:11:20.670Z] Gas: 0.000030486 SOL ($0.00)
+[2025-06-10T05:11:20.670Z] 
+Swap Details:
+[2025-06-10T05:11:20.671Z] DEX: Jupiter
+[2025-06-10T05:11:20.671Z] Slippage: 0.50%
+[2025-06-10T05:11:20.672Z] Minimum Received: 1.583935 USDT
+[2025-06-10T05:11:20.672Z] 
+==================================================
+
+[2025-06-10T05:11:22.681Z] 
+Testing scenario: Small USDC to SOL
+[2025-06-10T05:11:22.682Z] 
+Requesting quote from Li.Fi...
+[2025-06-10T05:11:23.547Z] 
+=== Li.Fi Quote Details for Small USDC to SOL ===
+[2025-06-10T05:11:23.548Z] 
+1. Pre-Execution Quote:
+[2025-06-10T05:11:23.549Z] From: 1.000000 USDC
+[2025-06-10T05:11:23.549Z] To: 0.006280983 wSOL
+[2025-06-10T05:11:23.550Z] Rate: 1 USDC = 0.006281 wSOL
+[2025-06-10T05:11:23.551Z] 
+USD Values:
+[2025-06-10T05:11:23.551Z] From: $1.00
+[2025-06-10T05:11:23.552Z] To: $1.00
+[2025-06-10T05:11:23.552Z] 
+2. Estimated Fees:
+[2025-06-10T05:11:23.553Z] Gas: 0.000110356 SOL ($0.02)
+[2025-06-10T05:11:23.553Z] Fee: 0.002039280 SOL ($0.32)
+[2025-06-10T05:11:23.554Z] 
+Swap Details:
+[2025-06-10T05:11:23.554Z] DEX: Jupiter
+[2025-06-10T05:11:23.555Z] Slippage: 0.50%
+[2025-06-10T05:11:23.555Z] Minimum Received: 0.006249578 wSOL
+[2025-06-10T05:11:23.556Z] 
+==================================================
+
+[2025-06-10T05:11:25.568Z] 
+Testing scenario: Small SOL to Davo
+[2025-06-10T05:11:25.569Z] 
+Requesting quote from Li.Fi...
+[2025-06-10T05:11:28.668Z] 
+⚠️ Token not supported by Li.Fi
+[2025-06-10T05:11:28.668Z] Please verify if the token is supported and the address is correct
+[2025-06-10T05:11:28.669Z] 
+❌ Failed to test scenario: Small SOL to Davo
+[2025-06-10T05:11:28.670Z] Error: HTTP error! status: 404
+Details: {"message":"Could not find token 1151111081099710-6bEY8kJR5aJMSr3weYPUC6rB9W2DY3PxuKkQyox4pump","code":1003}
+[2025-06-10T05:11:28.671Z] 
+Failed Quote Parameters:
+[2025-06-10T05:11:28.671Z] From Chain: sol
+[2025-06-10T05:11:28.672Z] To Chain: sol
+[2025-06-10T05:11:28.672Z] From Token: So11111111111111111111111111111111111111112
+[2025-06-10T05:11:28.673Z] To Token: 6bEY8kJR5aJMSr3weYPUC6rB9W2DY3PxuKkQyox4pump
+[2025-06-10T05:11:28.673Z] Amount: 10000000
+[2025-06-10T05:11:28.674Z] From Address: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj
+[2025-06-10T05:11:28.674Z] To Address: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj
+[2025-06-10T05:11:28.675Z] 
+Testing scenario: Medium SOL to Davo
+[2025-06-10T05:11:28.676Z] 
+Requesting quote from Li.Fi...
+[2025-06-10T05:11:29.204Z] 
+❌ Failed to test scenario: Medium SOL to Davo
+[2025-06-10T05:11:29.205Z] Error: HTTP error! status: 429
+Details: {"message":"Rate limit exceeded, retry in 18 minutes","code":1005}
+[2025-06-10T05:11:29.206Z] 
+Failed Quote Parameters:
+[2025-06-10T05:11:29.215Z] From Chain: sol
+[2025-06-10T05:11:29.216Z] To Chain: sol
+[2025-06-10T05:11:29.217Z] From Token: So11111111111111111111111111111111111111112
+[2025-06-10T05:11:29.218Z] To Token: 6bEY8kJR5aJMSr3weYPUC6rB9W2DY3PxuKkQyox4pump
+[2025-06-10T05:11:29.219Z] Amount: 100000000
+[2025-06-10T05:11:29.221Z] From Address: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj
+[2025-06-10T05:11:29.222Z] To Address: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj
+[2025-06-10T05:11:29.223Z] 
+Testing scenario: Davo to ETH
+[2025-06-10T05:11:29.223Z] 
+Requesting quote from Li.Fi...
+[2025-06-10T05:11:29.519Z] 
+❌ Failed to test scenario: Davo to ETH
+[2025-06-10T05:11:29.520Z] Error: HTTP error! status: 429
+Details: {"message":"Rate limit exceeded, retry in 18 minutes","code":1005}
+[2025-06-10T05:11:29.521Z] 
+Failed Quote Parameters:
+[2025-06-10T05:11:29.521Z] From Chain: sol
+[2025-06-10T05:11:29.522Z] To Chain: eth
+[2025-06-10T05:11:29.522Z] From Token: 6bEY8kJR5aJMSr3weYPUC6rB9W2DY3PxuKkQyox4pump
+[2025-06-10T05:11:29.523Z] To Token: 0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+[2025-06-10T05:11:29.523Z] Amount: 1000000
+[2025-06-10T05:11:29.524Z] From Address: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj
+[2025-06-10T05:11:29.524Z] To Address: 0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB
+[2025-06-10T05:11:29.525Z] 
+Testing scenario: Davo to USDT(ETH)
+[2025-06-10T05:11:29.526Z] 
+Requesting quote from Li.Fi...
+[2025-06-10T05:11:29.861Z] 
+❌ Failed to test scenario: Davo to USDT(ETH)
+[2025-06-10T05:11:29.861Z] Error: HTTP error! status: 429
+Details: {"message":"Rate limit exceeded, retry in 18 minutes","code":1005}
+[2025-06-10T05:11:29.862Z] 
+Failed Quote Parameters:
+[2025-06-10T05:11:29.862Z] From Chain: sol
+[2025-06-10T05:11:29.863Z] To Chain: eth
+[2025-06-10T05:11:29.863Z] From Token: 6bEY8kJR5aJMSr3weYPUC6rB9W2DY3PxuKkQyox4pump
+[2025-06-10T05:11:29.864Z] To Token: 0xdac17f958d2ee523a2206206994597c13d831ec7
+[2025-06-10T05:11:29.865Z] Amount: 1000000
+[2025-06-10T05:11:29.865Z] From Address: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj
+[2025-06-10T05:11:29.865Z] To Address: 0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB
+[2025-06-10T05:11:29.866Z] 
+Test suite completed!
+[2025-06-10T05:30:31.495Z] Starting Li.Fi API tests...
+[2025-06-10T05:30:31.497Z] 
+Testing scenario: Small SOL to USDC
+[2025-06-10T05:30:31.499Z] 
+Requesting quote from Li.Fi...
+[2025-06-10T05:30:32.843Z] 
+=== Li.Fi Quote Details for Small SOL to USDC ===
+[2025-06-10T05:30:32.844Z] 
+1. Pre-Execution Quote:
+[2025-06-10T05:30:32.845Z] From: 0.010000000 wSOL
+[2025-06-10T05:30:32.846Z] To: 1.587132 USDC
+[2025-06-10T05:30:32.846Z] Rate: 1 wSOL = 158.713200 USDC
+[2025-06-10T05:30:32.847Z] 
+USD Values:
+[2025-06-10T05:30:32.848Z] From: $1.59
+[2025-06-10T05:30:32.848Z] To: $1.59
+[2025-06-10T05:30:32.849Z] 
+2. Estimated Fees:
+[2025-06-10T05:30:32.850Z] Gas: 0.000014723 SOL ($0.00)
+[2025-06-10T05:30:32.850Z] Fee: 0.002039280 SOL ($0.32)
+[2025-06-10T05:30:32.851Z] 
+Swap Details:
+[2025-06-10T05:30:32.852Z] DEX: Jupiter
+[2025-06-10T05:30:32.852Z] Slippage: 0.50%
+[2025-06-10T05:30:32.853Z] Minimum Received: 1.579196 USDC
+[2025-06-10T05:30:32.854Z] 
+==================================================
+
+[2025-06-10T05:30:34.867Z] 
+Testing scenario: Medium SOL to USDC
+[2025-06-10T05:30:34.868Z] 
+Requesting quote from Li.Fi...
+[2025-06-10T05:30:35.690Z] 
+=== Li.Fi Quote Details for Medium SOL to USDC ===
+[2025-06-10T05:30:35.691Z] 
+1. Pre-Execution Quote:
+[2025-06-10T05:30:35.691Z] From: 0.100000000 wSOL
+[2025-06-10T05:30:35.692Z] To: 15.873888 USDC
+[2025-06-10T05:30:35.693Z] Rate: 1 wSOL = 158.738880 USDC
+[2025-06-10T05:30:35.693Z] 
+USD Values:
+[2025-06-10T05:30:35.694Z] From: $15.91
+[2025-06-10T05:30:35.694Z] To: $15.87
+[2025-06-10T05:30:35.695Z] 
+2. Estimated Fees:
+[2025-06-10T05:30:35.695Z] Gas: 0.000014235 SOL ($0.00)
+[2025-06-10T05:30:35.696Z] Fee: 0.002039280 SOL ($0.32)
+[2025-06-10T05:30:35.696Z] 
+Swap Details:
+[2025-06-10T05:30:35.697Z] DEX: Jupiter
+[2025-06-10T05:30:35.698Z] Slippage: 0.50%
+[2025-06-10T05:30:35.698Z] Minimum Received: 15.794519 USDC
+[2025-06-10T05:30:35.699Z] 
+==================================================
+
+[2025-06-10T05:30:37.713Z] 
+Testing scenario: Large SOL to USDC
+[2025-06-10T05:30:37.719Z] 
+Requesting quote from Li.Fi...
+[2025-06-10T05:30:38.896Z] 
+=== Li.Fi Quote Details for Large SOL to USDC ===
+[2025-06-10T05:30:38.897Z] 
+1. Pre-Execution Quote:
+[2025-06-10T05:30:38.897Z] From: 1.000000000 wSOL
+[2025-06-10T05:30:38.898Z] To: 158.727671 USDC
+[2025-06-10T05:30:38.898Z] Rate: 1 wSOL = 158.727671 USDC
+[2025-06-10T05:30:38.899Z] 
+USD Values:
+[2025-06-10T05:30:38.899Z] From: $159.11
+[2025-06-10T05:30:38.900Z] To: $158.70
+[2025-06-10T05:30:38.900Z] 
+2. Estimated Fees:
+[2025-06-10T05:30:38.901Z] Gas: 0.000014227 SOL ($0.00)
+[2025-06-10T05:30:38.902Z] Fee: 0.002039280 SOL ($0.32)
+[2025-06-10T05:30:38.902Z] 
+Swap Details:
+[2025-06-10T05:30:38.903Z] DEX: Jupiter
+[2025-06-10T05:30:38.903Z] Slippage: 0.50%
+[2025-06-10T05:30:38.904Z] Minimum Received: 157.934033 USDC
+[2025-06-10T05:30:38.905Z] 
+==================================================
+
+[2025-06-10T05:30:40.917Z] 
+Testing scenario: Small SOL to USDT
+[2025-06-10T05:30:40.918Z] 
+Requesting quote from Li.Fi...
+[2025-06-10T05:30:41.922Z] 
+=== Li.Fi Quote Details for Small SOL to USDT ===
+[2025-06-10T05:30:41.923Z] 
+1. Pre-Execution Quote:
+[2025-06-10T05:30:41.923Z] From: 0.010000000 wSOL
+[2025-06-10T05:30:41.924Z] To: 1.586529 USDT
+[2025-06-10T05:30:41.924Z] Rate: 1 wSOL = 158.652900 USDT
+[2025-06-10T05:30:41.925Z] 
+USD Values:
+[2025-06-10T05:30:41.925Z] From: $1.59
+[2025-06-10T05:30:41.926Z] To: $1.59
+[2025-06-10T05:30:41.926Z] 
+2. Estimated Fees:
+[2025-06-10T05:30:41.926Z] Gas: 0.000019371 SOL ($0.00)
+[2025-06-10T05:30:41.927Z] 
+Swap Details:
+[2025-06-10T05:30:41.927Z] DEX: Jupiter
+[2025-06-10T05:30:41.928Z] Slippage: 0.50%
+[2025-06-10T05:30:41.928Z] Minimum Received: 1.578596 USDT
+[2025-06-10T05:30:41.929Z] 
+==================================================
+
+[2025-06-10T05:30:43.930Z] 
+Testing scenario: Small USDC to SOL
+[2025-06-10T05:30:43.931Z] 
+Requesting quote from Li.Fi...
+[2025-06-10T05:30:46.134Z] 
+=== Li.Fi Quote Details for Small USDC to SOL ===
+[2025-06-10T05:30:46.135Z] 
+1. Pre-Execution Quote:
+[2025-06-10T05:30:46.136Z] From: 1.000000 USDC
+[2025-06-10T05:30:46.136Z] To: 0.006300707 wSOL
+[2025-06-10T05:30:46.137Z] Rate: 1 USDC = 0.006301 wSOL
+[2025-06-10T05:30:46.137Z] 
+USD Values:
+[2025-06-10T05:30:46.138Z] From: $1.00
+[2025-06-10T05:30:46.138Z] To: $1.00
+[2025-06-10T05:30:46.139Z] 
+2. Estimated Fees:
+[2025-06-10T05:30:46.140Z] Gas: 0.000064000 SOL ($0.01)
+[2025-06-10T05:30:46.140Z] Fee: 0.002039280 SOL ($0.32)
+[2025-06-10T05:30:46.141Z] 
+Swap Details:
+[2025-06-10T05:30:46.142Z] DEX: Jupiter
+[2025-06-10T05:30:46.142Z] Slippage: 0.50%
+[2025-06-10T05:30:46.143Z] Minimum Received: 0.006269203 wSOL
+[2025-06-10T05:30:46.144Z] 
+==================================================
+
+[2025-06-10T05:30:48.144Z] 
+Testing scenario: Small SOL to Davo
+[2025-06-10T05:30:48.145Z] 
+Requesting quote from Li.Fi...
+[2025-06-10T05:30:49.893Z] 
+⚠️ Token not supported by Li.Fi
+[2025-06-10T05:30:49.894Z] Please verify if the token is supported and the address is correct
+[2025-06-10T05:30:49.895Z] 
+❌ Failed to test scenario: Small SOL to Davo
+[2025-06-10T05:30:49.895Z] Error: HTTP error! status: 404
+Details: {"message":"Could not find token 1151111081099710-6bEY8kJR5aJMSr3weYPUC6rB9W2DY3PxuKkQyox4pump","code":1003}
+[2025-06-10T05:30:49.896Z] 
+Failed Quote Parameters:
+[2025-06-10T05:30:49.897Z] From Chain: sol
+[2025-06-10T05:30:49.897Z] To Chain: sol
+[2025-06-10T05:30:49.897Z] From Token: So11111111111111111111111111111111111111112
+[2025-06-10T05:30:49.898Z] To Token: 6bEY8kJR5aJMSr3weYPUC6rB9W2DY3PxuKkQyox4pump
+[2025-06-10T05:30:49.898Z] Amount: 10000000
+[2025-06-10T05:30:49.899Z] From Address: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj
+[2025-06-10T05:30:49.899Z] To Address: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj
+[2025-06-10T05:30:49.900Z] 
+Testing scenario: Medium SOL to Davo
+[2025-06-10T05:30:49.900Z] 
+Requesting quote from Li.Fi...
+[2025-06-10T05:30:52.675Z] 
+⚠️ Token not supported by Li.Fi
+[2025-06-10T05:30:52.675Z] Please verify if the token is supported and the address is correct
+[2025-06-10T05:30:52.676Z] 
+❌ Failed to test scenario: Medium SOL to Davo
+[2025-06-10T05:30:52.677Z] Error: HTTP error! status: 404
+Details: {"message":"Could not find token 1151111081099710-6bEY8kJR5aJMSr3weYPUC6rB9W2DY3PxuKkQyox4pump","code":1003}
+[2025-06-10T05:30:52.677Z] 
+Failed Quote Parameters:
+[2025-06-10T05:30:52.678Z] From Chain: sol
+[2025-06-10T05:30:52.678Z] To Chain: sol
+[2025-06-10T05:30:52.679Z] From Token: So11111111111111111111111111111111111111112
+[2025-06-10T05:30:52.679Z] To Token: 6bEY8kJR5aJMSr3weYPUC6rB9W2DY3PxuKkQyox4pump
+[2025-06-10T05:30:52.679Z] Amount: 100000000
+[2025-06-10T05:30:52.680Z] From Address: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj
+[2025-06-10T05:30:52.680Z] To Address: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj
+[2025-06-10T05:30:52.681Z] 
+Testing scenario: Davo to ETH
+[2025-06-10T05:30:52.681Z] 
+Requesting quote from Li.Fi...
+[2025-06-10T05:30:54.469Z] 
+⚠️ Token not supported by Li.Fi
+[2025-06-10T05:30:54.469Z] Please verify if the token is supported and the address is correct
+[2025-06-10T05:30:54.470Z] 
+❌ Failed to test scenario: Davo to ETH
+[2025-06-10T05:30:54.472Z] Error: HTTP error! status: 404
+Details: {"message":"Could not find token 1151111081099710-6bEY8kJR5aJMSr3weYPUC6rB9W2DY3PxuKkQyox4pump","code":1003}
+[2025-06-10T05:30:54.473Z] 
+Failed Quote Parameters:
+[2025-06-10T05:30:54.475Z] From Chain: sol
+[2025-06-10T05:30:54.475Z] To Chain: eth
+[2025-06-10T05:30:54.476Z] From Token: 6bEY8kJR5aJMSr3weYPUC6rB9W2DY3PxuKkQyox4pump
+[2025-06-10T05:30:54.476Z] To Token: 0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+[2025-06-10T05:30:54.477Z] Amount: 1000000
+[2025-06-10T05:30:54.478Z] From Address: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj
+[2025-06-10T05:30:54.478Z] To Address: 0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB
+[2025-06-10T05:30:54.479Z] 
+Testing scenario: Davo to USDT(ETH)
+[2025-06-10T05:30:54.480Z] 
+Requesting quote from Li.Fi...
+[2025-06-10T05:30:56.024Z] 
+⚠️ Token not supported by Li.Fi
+[2025-06-10T05:30:56.024Z] Please verify if the token is supported and the address is correct
+[2025-06-10T05:30:56.025Z] 
+❌ Failed to test scenario: Davo to USDT(ETH)
+[2025-06-10T05:30:56.026Z] Error: HTTP error! status: 404
+Details: {"message":"Could not find token 1151111081099710-6bEY8kJR5aJMSr3weYPUC6rB9W2DY3PxuKkQyox4pump","code":1003}
+[2025-06-10T05:30:56.026Z] 
+Failed Quote Parameters:
+[2025-06-10T05:30:56.027Z] From Chain: sol
+[2025-06-10T05:30:56.027Z] To Chain: eth
+[2025-06-10T05:30:56.028Z] From Token: 6bEY8kJR5aJMSr3weYPUC6rB9W2DY3PxuKkQyox4pump
+[2025-06-10T05:30:56.028Z] To Token: 0xdac17f958d2ee523a2206206994597c13d831ec7
+[2025-06-10T05:30:56.028Z] Amount: 1000000
+[2025-06-10T05:30:56.029Z] From Address: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj
+[2025-06-10T05:30:56.029Z] To Address: 0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB
+[2025-06-10T05:30:56.030Z] 
+Test suite completed!
+[2025-06-10T05:32:52.507Z] Starting Li.Fi API tests...
+[2025-06-10T05:32:52.508Z] 
+Testing scenario: SOL to Token
+[2025-06-10T05:32:52.509Z] 
+Requesting quote from Li.Fi...
+[2025-06-10T05:32:55.480Z] 
+⚠️ Token not supported by Li.Fi
+[2025-06-10T05:32:55.481Z] Please verify if the token is supported and the address is correct
+[2025-06-10T05:32:55.482Z] 
+❌ Failed to test scenario: SOL to Token
+[2025-06-10T05:32:55.483Z] Error: HTTP error! status: 404
+Details: {"message":"Could not find token 1151111081099710-6bEY8kJR5aJMSr3weYPUC6rB9W2DY3PxuKkQyox4pump","code":1003}
+[2025-06-10T05:32:55.484Z] 
+Failed Quote Parameters:
+[2025-06-10T05:32:55.485Z] From Chain: sol
+[2025-06-10T05:32:55.485Z] To Chain: sol
+[2025-06-10T05:32:55.486Z] From Token: So11111111111111111111111111111111111111112
+[2025-06-10T05:32:55.487Z] To Token: 6bEY8kJR5aJMSr3weYPUC6rB9W2DY3PxuKkQyox4pump
+[2025-06-10T05:32:55.488Z] Amount: 10000000
+[2025-06-10T05:32:55.489Z] From Address: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj
+[2025-06-10T05:32:55.490Z] To Address: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj
+[2025-06-10T05:32:55.490Z] 
+Testing scenario: Token to ETH
+[2025-06-10T05:32:55.491Z] 
+Requesting quote from Li.Fi...
+[2025-06-10T05:32:57.358Z] 
+⚠️ Token not supported by Li.Fi
+[2025-06-10T05:32:57.359Z] Please verify if the token is supported and the address is correct
+[2025-06-10T05:32:57.359Z] 
+❌ Failed to test scenario: Token to ETH
+[2025-06-10T05:32:57.360Z] Error: HTTP error! status: 404
+Details: {"message":"Could not find token 1151111081099710-6bEY8kJR5aJMSr3weYPUC6rB9W2DY3PxuKkQyox4pump","code":1003}
+[2025-06-10T05:32:57.361Z] 
+Failed Quote Parameters:
+[2025-06-10T05:32:57.361Z] From Chain: sol
+[2025-06-10T05:32:57.362Z] To Chain: eth
+[2025-06-10T05:32:57.362Z] From Token: 6bEY8kJR5aJMSr3weYPUC6rB9W2DY3PxuKkQyox4pump
+[2025-06-10T05:32:57.363Z] To Token: 0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+[2025-06-10T05:32:57.363Z] Amount: 1000000
+[2025-06-10T05:32:57.363Z] From Address: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj
+[2025-06-10T05:32:57.364Z] To Address: 0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB
+[2025-06-10T05:32:57.364Z] 
+Testing scenario: Token to USDT(ETH)
+[2025-06-10T05:32:57.365Z] 
+Requesting quote from Li.Fi...
+[2025-06-10T05:33:01.209Z] 
+⚠️ Token not supported by Li.Fi
+[2025-06-10T05:33:01.210Z] Please verify if the token is supported and the address is correct
+[2025-06-10T05:33:01.211Z] 
+❌ Failed to test scenario: Token to USDT(ETH)
+[2025-06-10T05:33:01.211Z] Error: HTTP error! status: 404
+Details: {"message":"Could not find token 1151111081099710-6bEY8kJR5aJMSr3weYPUC6rB9W2DY3PxuKkQyox4pump","code":1003}
+[2025-06-10T05:33:01.212Z] 
+Failed Quote Parameters:
+[2025-06-10T05:33:01.213Z] From Chain: sol
+[2025-06-10T05:33:01.213Z] To Chain: eth
+[2025-06-10T05:33:01.214Z] From Token: 6bEY8kJR5aJMSr3weYPUC6rB9W2DY3PxuKkQyox4pump
+[2025-06-10T05:33:01.214Z] To Token: 0xdac17f958d2ee523a2206206994597c13d831ec7
+[2025-06-10T05:33:01.215Z] Amount: 1000000
+[2025-06-10T05:33:01.215Z] From Address: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj
+[2025-06-10T05:33:01.216Z] To Address: 0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB
+[2025-06-10T05:33:01.216Z] 
+Test suite completed!
+[2025-06-10T05:33:38.810Z] Starting Li.Fi API tests...
+[2025-06-10T05:33:38.810Z] 
+Testing scenario: SOL to TrumpCock
+[2025-06-10T05:33:38.811Z] 
+Requesting quote from Li.Fi...
+[2025-06-10T05:33:41.365Z] 
+⚠️ Token not supported by Li.Fi
+[2025-06-10T05:33:41.365Z] Please verify if the token is supported and the address is correct
+[2025-06-10T05:33:41.366Z] 
+❌ Failed to test scenario: SOL to TrumpCock
+[2025-06-10T05:33:41.367Z] Error: HTTP error! status: 404
+Details: {"message":"Could not find token 1151111081099710-JCuWt2QBvYigRqmTy3iSze1myczP1gdRVfu48tcUpump","code":1003}
+[2025-06-10T05:33:41.368Z] 
+Failed Quote Parameters:
+[2025-06-10T05:33:41.368Z] From Chain: sol
+[2025-06-10T05:33:41.369Z] To Chain: sol
+[2025-06-10T05:33:41.370Z] From Token: So11111111111111111111111111111111111111112
+[2025-06-10T05:33:41.370Z] To Token: JCuWt2QBvYigRqmTy3iSze1myczP1gdRVfu48tcUpump
+[2025-06-10T05:33:41.371Z] Amount: 10000000
+[2025-06-10T05:33:41.371Z] From Address: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj
+[2025-06-10T05:33:41.372Z] To Address: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj
+[2025-06-10T05:33:41.373Z] 
+Testing scenario: TrumpCock to ETH
+[2025-06-10T05:33:41.373Z] 
+Requesting quote from Li.Fi...
+[2025-06-10T05:33:44.253Z] 
+⚠️ Token not supported by Li.Fi
+[2025-06-10T05:33:44.254Z] Please verify if the token is supported and the address is correct
+[2025-06-10T05:33:44.255Z] 
+❌ Failed to test scenario: TrumpCock to ETH
+[2025-06-10T05:33:44.255Z] Error: HTTP error! status: 404
+Details: {"message":"Could not find token 1151111081099710-JCuWt2QBvYigRqmTy3iSze1myczP1gdRVfu48tcUpump","code":1003}
+[2025-06-10T05:33:44.256Z] 
+Failed Quote Parameters:
+[2025-06-10T05:33:44.256Z] From Chain: sol
+[2025-06-10T05:33:44.257Z] To Chain: eth
+[2025-06-10T05:33:44.257Z] From Token: JCuWt2QBvYigRqmTy3iSze1myczP1gdRVfu48tcUpump
+[2025-06-10T05:33:44.258Z] To Token: 0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+[2025-06-10T05:33:44.258Z] Amount: 1000000
+[2025-06-10T05:33:44.258Z] From Address: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj
+[2025-06-10T05:33:44.259Z] To Address: 0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB
+[2025-06-10T05:33:44.259Z] 
+Testing scenario: TrumpCock to USDT(ETH)
+[2025-06-10T05:33:44.260Z] 
+Requesting quote from Li.Fi...
+[2025-06-10T05:33:47.555Z] 
+⚠️ Token not supported by Li.Fi
+[2025-06-10T05:33:47.556Z] Please verify if the token is supported and the address is correct
+[2025-06-10T05:33:47.557Z] 
+❌ Failed to test scenario: TrumpCock to USDT(ETH)
+[2025-06-10T05:33:47.558Z] Error: HTTP error! status: 404
+Details: {"message":"Could not find token 1151111081099710-JCuWt2QBvYigRqmTy3iSze1myczP1gdRVfu48tcUpump","code":1003}
+[2025-06-10T05:33:47.559Z] 
+Failed Quote Parameters:
+[2025-06-10T05:33:47.560Z] From Chain: sol
+[2025-06-10T05:33:47.561Z] To Chain: eth
+[2025-06-10T05:33:47.564Z] From Token: JCuWt2QBvYigRqmTy3iSze1myczP1gdRVfu48tcUpump
+[2025-06-10T05:33:47.565Z] To Token: 0xdac17f958d2ee523a2206206994597c13d831ec7
+[2025-06-10T05:33:47.566Z] Amount: 1000000
+[2025-06-10T05:33:47.567Z] From Address: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj
+[2025-06-10T05:33:47.568Z] To Address: 0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB
+[2025-06-10T05:33:47.569Z] 
+Test suite completed!
+[2025-06-10T05:34:30.113Z] Starting Li.Fi API tests...
+[2025-06-10T05:34:30.114Z] 
+Testing scenario: SOL to Farcion
+[2025-06-10T05:34:30.115Z] 
+Requesting quote from Li.Fi...
+[2025-06-10T05:34:31.912Z] 
+=== Li.Fi Quote Details for SOL to Farcion ===
+[2025-06-10T05:34:31.913Z] 
+1. Pre-Execution Quote:
+[2025-06-10T05:34:31.914Z] From: 0.010000000 wSOL
+[2025-06-10T05:34:31.914Z] To: 1.269985 Fartcoin
+[2025-06-10T05:34:31.915Z] Rate: 1 wSOL = 126.998500 Fartcoin
+[2025-06-10T05:34:31.915Z] 
+USD Values:
+[2025-06-10T05:34:31.916Z] From: $1.59
+[2025-06-10T05:34:31.917Z] To: $1.60
+[2025-06-10T05:34:31.917Z] 
+2. Estimated Fees:
+[2025-06-10T05:34:31.918Z] Gas: 0.000033678 SOL ($0.01)
+[2025-06-10T05:34:31.919Z] Fee: 0.002039280 SOL ($0.32)
+[2025-06-10T05:34:31.922Z] 
+Swap Details:
+[2025-06-10T05:34:31.923Z] DEX: Jupiter
+[2025-06-10T05:34:31.924Z] Slippage: 0.50%
+[2025-06-10T05:34:31.924Z] Minimum Received: 1.263635 Fartcoin
+[2025-06-10T05:34:31.925Z] 
+==================================================
+
+[2025-06-10T05:34:33.934Z] 
+Testing scenario: Farcion to ETH
+[2025-06-10T05:34:33.935Z] 
+Requesting quote from Li.Fi...
+[2025-06-10T05:34:37.039Z] 
+=== Li.Fi Quote Details for Farcion to ETH ===
+[2025-06-10T05:34:37.040Z] 
+1. Pre-Execution Quote:
+[2025-06-10T05:34:37.040Z] From: 1.000000 Fartcoin
+[2025-06-10T05:34:37.041Z] To: 0.000349498230025651 ETH
+[2025-06-10T05:34:37.041Z] Rate: 1 Fartcoin = 0.000349 ETH
+[2025-06-10T05:34:37.113Z] 
+USD Values:
+[2025-06-10T05:34:37.114Z] From: $1.26
+[2025-06-10T05:34:37.114Z] To: $0.94
+[2025-06-10T05:34:37.115Z] 
+2. Estimated Fees:
+[2025-06-10T05:34:37.116Z] Gas: 0.000086000 SOL ($0.01)
+[2025-06-10T05:34:37.116Z] Fee: 0.224197 USDC ($0.22)
+[2025-06-10T05:34:37.117Z] Fee: 0.081942 USDC ($0.08)
+[2025-06-10T05:34:37.117Z] 
+Swap Details:
+[2025-06-10T05:34:37.119Z] DEX: Relay
+[2025-06-10T05:34:37.120Z] Slippage: 0.50%
+[2025-06-10T05:34:37.121Z] Minimum Received: 0.000347759432861344 ETH
+[2025-06-10T05:34:37.122Z] 
+==================================================
+
+[2025-06-10T05:34:39.128Z] 
+Testing scenario: Farcion to USDT(ETH)
+[2025-06-10T05:34:39.130Z] 
+Requesting quote from Li.Fi...
+[2025-06-10T05:34:41.581Z] 
+❌ Failed to test scenario: Farcion to USDT(ETH)
+[2025-06-10T05:34:41.582Z] Error: HTTP error! status: 404
+Details: {"message":"No available quotes for the requested transfer","code":1002,"errors":{"filteredOut":[{"overallPath":"1151111081099710:Fartcoin~1151111081099710:USDC-1151111081099710:USDC-allbridge-1:USDC-1:USDC~1:USDT","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Fartcoin~1151111081099710:USDT-1151111081099710:USDT-allbridge-1:USDC-1:USDC~1:USDT","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Fartcoin~1151111081099710:USDC-1151111081099710:USDC-allbridge-1:USDT","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Fartcoin~1151111081099710:USDT-1151111081099710:USDT-allbridge-1:USDT","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Fartcoin-mayanWH-1:ETH-1:ETH~1:USDT","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Fartcoin-mayanWH-1:WBTC-1:WBTC~1:USDT","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Fartcoin~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:ETH-1:ETH~1:USDT","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Fartcoin~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:FLIP-1:FLIP~1:USDT","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Fartcoin~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:USDC-1:USDC~1:USDT","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Fartcoin~1151111081099710:SOL-1151111081099710:SOL-chainflip-1:USDT","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Fartcoin~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:ETH-1:ETH~1:USDT","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Fartcoin~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:FLIP-1:FLIP~1:USDT","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Fartcoin~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:USDC-1:USDC~1:USDT","reason":"Multi-step transactions are not supported for SVM chains now."},{"overallPath":"1151111081099710:Fartcoin~1151111081099710:USDC-1151111081099710:USDC-chainflip-1:USDT","reason":"Multi-step transactions are not supported for SVM chains now."}],"failed":[{"overallPath":"1151111081099710:Fartcoin-mayanWH-1:USDT","subpaths":{"1151111081099710:Fartcoin-mayanWH-1:USDT":[{"errorType":"NO_QUOTE","code":"UNKNOWN_ERROR","action":{"fromChainId":1151111081099710,"fromAmount":"1000000","fromToken":{"address":"9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump","chainId":1151111081099710,"symbol":"Fartcoin","decimals":6,"name":"Fartcoin","logoURI":"https://ipfs.io/ipfs/QmQr3Fz4h1etNsF7oLGMRHiCzhB5y9a7GjyodnF7zLHK1g","priceUSD":"1.26"},"toChainId":1,"toToken":{"address":"0xdAC17F958D2ee523a2206206994597C13D831ec7","chainId":1,"symbol":"USDT","decimals":6,"name":"USDT","coinKey":"USDT","logoURI":"https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png","priceUSD":"1.00037347"},"fromAddress":"CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","toAddress":"0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB","destinationGasConsumption":"0"},"tool":"mayanWH","message":"UNKNOWN_ERROR"}]}},{"overallPath":"1151111081099710:Fartcoin-mayanMCTP-1:USDT","subpaths":{"1151111081099710:Fartcoin-mayanMCTP-1:USDT":[{"errorType":"NO_QUOTE","code":"AMOUNT_TOO_LOW","action":{"fromChainId":1151111081099710,"fromAmount":"1000000","fromToken":{"address":"9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump","chainId":1151111081099710,"symbol":"Fartcoin","decimals":6,"name":"Fartcoin","logoURI":"https://ipfs.io/ipfs/QmQr3Fz4h1etNsF7oLGMRHiCzhB5y9a7GjyodnF7zLHK1g","priceUSD":"1.26"},"toChainId":1,"toToken":{"address":"0xdAC17F958D2ee523a2206206994597C13D831ec7","chainId":1,"symbol":"USDT","decimals":6,"name":"USDT","coinKey":"USDT","logoURI":"https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png","priceUSD":"1.00037347"},"fromAddress":"CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","toAddress":"0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB","destinationGasConsumption":"0"},"tool":"mayanMCTP","message":"AMOUNT_TOO_LOW"}]}},{"overallPath":"1151111081099710:Fartcoin-mayan-1:USDT","subpaths":{"1151111081099710:Fartcoin-mayan-1:USDT":[{"errorType":"NO_QUOTE","code":"AMOUNT_TOO_LOW","action":{"fromChainId":1151111081099710,"fromAmount":"1000000","fromToken":{"address":"9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump","chainId":1151111081099710,"symbol":"Fartcoin","decimals":6,"name":"Fartcoin","logoURI":"https://ipfs.io/ipfs/QmQr3Fz4h1etNsF7oLGMRHiCzhB5y9a7GjyodnF7zLHK1g","priceUSD":"1.26"},"toChainId":1,"toToken":{"address":"0xdAC17F958D2ee523a2206206994597C13D831ec7","chainId":1,"symbol":"USDT","decimals":6,"name":"USDT","coinKey":"USDT","logoURI":"https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png","priceUSD":"1.00037347"},"fromAddress":"CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj","toAddress":"0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB","destinationGasConsumption":"0"},"tool":"mayan","message":"AMOUNT_TOO_LOW"}]}}]}}
+[2025-06-10T05:34:41.598Z] 
+Failed Quote Parameters:
+[2025-06-10T05:34:41.598Z] From Chain: sol
+[2025-06-10T05:34:41.599Z] To Chain: eth
+[2025-06-10T05:34:41.599Z] From Token: 9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump
+[2025-06-10T05:34:41.600Z] To Token: 0xdac17f958d2ee523a2206206994597c13d831ec7
+[2025-06-10T05:34:41.601Z] Amount: 1000000
+[2025-06-10T05:34:41.602Z] From Address: CBKvo4csvk8k2VpwVi13d6xQFEhgMEmJXVFhJeU9GEXj
+[2025-06-10T05:34:41.603Z] To Address: 0x77b13aE271BADdBf498ff7b9B98c07377ed2fcbB
+[2025-06-10T05:34:41.603Z] 
+Test suite completed!
